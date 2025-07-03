@@ -2405,6 +2405,7 @@ section,
 }
 
 .contact .php-email-form input[type=text],
+.contact .php-email-form input[type=tel],
 .contact .php-email-form input[type=email],
 .contact .php-email-form textarea {
   color: var(--default-color);

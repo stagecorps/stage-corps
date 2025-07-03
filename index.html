@@ -42,7 +42,6 @@
     <div class="container position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.png" style="background-color: white; border-radius: 50%;"  alt="">
         <h1 class="sitename">Stage Corps</h1>
       </a>
@@ -370,16 +369,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About us</a></li>
-            <li><a href="service-details.html">Services</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-4 col-md-6 footer-links">
           <h4>Our Services</h4>
           <ul>
             <li><a href="#">Lighting Design</a></li>
@@ -392,12 +382,20 @@
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Work with us!</h4>
-          <p></p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input class="text-dark" type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="4819d7a3-7e54-437b-9f68-63bc87007d67">
+            <input type="hidden" name="subject" value="New Contractor Contact">
+            <input type="checkbox" name="botcheck" style="display: none;">
+            <input type="hidden" name="redirect" value="https://josh-hensley.github.io/stage-corps/thank-you.html">
+            <div class="input-group">
+              <input class="form-control mb-1" type="text" name="firstname" placeholder="First" required>
+              <input class="form-control mb-1" type="text" name="lastname" placeholder="Last" required>
+            </div>
+            <div class="input-group">
+              <input class="form-control mb-1" type="email" name="email" placeholder="Email" required>
+              <input class="form-control mb-1" type="tel" name="phone" placeholder="Phone" required>
+            </div>
+            <button class="form-control btn btn-secondary mb-1 " type="submit">Connect</button>
           </form>
         </div>
 

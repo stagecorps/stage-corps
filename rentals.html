@@ -42,23 +42,31 @@
     <div class="container position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.png" style="background-color: white; border-radius: 50%;"  alt="">
+        <img src="assets/img/logo.png" style="background-color: white; border-radius: 50%;" alt="">
         <h1 class="sitename">Stage Corps</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li class="dropdown"><a href="#about"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#about"><span>About</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="team.html">Team</a></li>
               <li><a href="testimonials.html">Testimonials</a></li>
             </ul>
           </li>
-          <li><a href="#services">Services</a></li>
+          <li class="dropdown"><a href="#services"><span>Services</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="light-design.html">Light Design</a></li>
+              <li><a href="scenic-design.html">Scenic Design</a></li>
+              <li><a href="labor.html">Labor</a></li>
+              <li><a href="rentals.html">Rentals</a></li>
+              <li><a href="sales.html">Sales</a></li>
+            </ul>
+          </li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="rentals.html">Rentals</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -90,7 +98,7 @@
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <div id="display-case" class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
               <img src="assets/img/equipment/aquamax-mp-3-final-lrg-black.jpg" class="img-fluid" alt="">
@@ -241,7 +249,7 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short text-dark"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -258,6 +266,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/rental.js"></script>
 
 </body>
 

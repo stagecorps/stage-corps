@@ -1,6 +1,7 @@
 (function (){
   const currentPage = window.location.pathname.split("/").pop();
   const isIndexPage = currentPage === "index.html";
+  const isThankYouPage = currentPage === "thank-you.html";
     document.getElementById("footer").innerHTML = `
     <div class="container footer-top">
       <div class="row gy-4">
@@ -32,24 +33,25 @@
           </ul>
         </div>
 
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Work with us!</h4>
-          <form action="https://api.web3forms.com/submit" method="post">
-            <input type="hidden" name="access_key" value="4819d7a3-7e54-437b-9f68-63bc87007d67">
-            <input type="hidden" name="subject" value="New Contractor Contact">
-            <input type="hidden" name="from_name" value="Leads">
-            <input type="checkbox" name="botcheck" style="display: none;">
-            <input type="hidden" name="redirect" value="https://josh-hensley.github.io/stage-corps/thank-you.html">
-            <div class="input-group">
-              <input class="form-control mb-1" type="text" name="name" placeholder="Your Name" required>
-            </div>
-            <div class="input-group">
-              <input class="form-control mb-1" type="email" name="email" placeholder="Email" required>
-              <input class="form-control mb-1" type="tel" name="phone" placeholder="Phone" required>
-            </div>
-            <button class="form-control btn btn-secondary mb-1 " type="submit">Connect</button>
-          </form>
-        </div>
+        ${isThankYouPage ? '' : `
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Work with us!</h4>
+            <form action="https://api.web3forms.com/submit" method="post">
+              <input type="hidden" name="access_key" value="4819d7a3-7e54-437b-9f68-63bc87007d67">
+              <input type="hidden" name="subject" value="New Contractor Contact">
+              <input type="hidden" name="from_name" value="Leads">
+              <input type="checkbox" name="botcheck" style="display: none;">
+              <input type="hidden" name="redirect" value="https://josh-hensley.github.io/stage-corps/thank-you.html">
+              <div class="input-group">
+                <input class="form-control mb-1" type="text" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="input-group">
+                <input class="form-control mb-1" type="email" name="email" placeholder="Email" required>
+                <input class="form-control mb-1" type="tel" name="phone" placeholder="Phone" required>
+              </div>
+              <button class="form-control btn btn-secondary mb-1 " type="submit">Connect</button>
+            </form>
+          </div>`}
 
       </div>
     </div>

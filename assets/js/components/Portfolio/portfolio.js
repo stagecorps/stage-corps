@@ -1,46 +1,44 @@
 (function (){
     const portfolioItems = [
         {
-            image: "assets/img/portfolio/Chamberlain Nutcracker Snow.jpg",
+            image: "../assets/img/portfolio/Chamberlain Nutcracker Snow.jpg",
             title: "Chamberlain Nutcracker"
         },
         {
-            image: "assets/img/portfolio/DSC_0287.JPG",
+            image: "../assets/img/portfolio/DSC_0287.JPG",
             title: "Show Title Here"
         },
         {
-            image: "assets/img/portfolio/DSC_0288.JPG",
+            image: "../assets/img/portfolio/DSC_0288.JPG",
             title: "Show Title Here"
         },
         {
-            image: "assets/img/portfolio/IMG_0941.JPG",
+            image: "../assets/img/portfolio/IMG_0941.JPG",
             title: "Show Title Here"
         },
         {
-            image: "assets/img/portfolio/IMG_6482.JPG",
+            image: "../assets/img/portfolio/IMG_6482.JPG",
             title: "Show Title Here"
         },
         {
-            image: "assets/img/portfolio/IMG_6495.JPG",
+            image: "../assets/img/portfolio/IMG_6495.JPG",
             title: "Show Title Here"
         },
         {
-            image: "assets/img/portfolio/Into the Woods 2.jpg",
+            image: "../assets/img/portfolio/Into the Woods 2.jpg",
             title: "Into the Woods"
         },
         {
-            image: "assets/img/portfolio/Into the Woods.jpg",
+            image: "../assets/img/portfolio/Into the Woods.jpg",
             title: "Into the Woods"
         },
         {
-            image: "assets/img/portfolio/RNJ.jpg",
+            image: "../assets/img/portfolio/RNJ.jpg",
             title: "Show Title Here"
         }
 
     ];
-
     const portfolio = document.getElementById("portfolio");
-
     const sectionTitle = document.createElement("div");
     sectionTitle.className = "container section-title";
     sectionTitle.setAttribute("data-aos", "fade-up");

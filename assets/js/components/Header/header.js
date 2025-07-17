@@ -5,15 +5,15 @@
   header.innerHTML=`
 <div class="container position-relative d-flex align-items-center">
 
-    <a href="index.html" class="logo d-flex align-items-center me-auto">
+    <a href=${isIndexPage ? "index.html" : "../index.html"} class="logo d-flex align-items-center me-auto">
         <img src=${isIndexPage ? "assets/img/logo.png" : "../assets/img/logo.png"} style="background-color: white; border-radius: 50%;" alt="">
         <h1 class="sitename">Stage Corps</h1>
     </a>
 
     <nav id="navmenu" class="navmenu">
         <ul>
-            <li><a href="#hero">Home</a></li>
-            <li class="dropdown"><a href="#about"><span>About</span> <i
+            <li><a href=${isIndexPage ? "#hero" : "../index.html"}>Home</a></li>
+            <li class="dropdown"><a href=${isIndexPage ? "#about" : "../index.html#about"}><span>About</span> <i
                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                     <li><a href=${isIndexPage ? "pages/team.html" : "team.html"}>Team</a></li>
@@ -48,25 +48,37 @@
   
   const navLinks = document.querySelectorAll("#navmenu a");
   switch (currentPage) {
-    case "team.html":
+    case "index.html":
+      navLinks[0].classList.add("active");
+      break;
+      case "team.html":
+      navLinks[1].classList.add("active");
+      break;
     case "testimonials.html":
       navLinks[1].classList.add("active");
       break;
     case "light-design.html":
-    case "scenic-design.html":
-    case "labor.html":
-    case "rentals.html":
-    case "sales.html":
-      navLinks[2].classList.add("active");
-      break;
-    case "portfolio.html":
-      navLinks[3].classList.add("active");
-      break;
-    case "contact.html":
       navLinks[4].classList.add("active");
       break;
+    case "scenic-design.html":
+      navLinks[4].classList.add("active");
+      break;
+    case "labor.html":
+      navLinks[4].classList.add("active");
+      break;
+    case "rentals.html":
+      navLinks[4].classList.add("active");
+      break;
+    case "sales.html":
+      navLinks[4].classList.add("active");
+      break;
+    case "portfolio.html":
+      navLinks[10].classList.add("active");
+      break;
+    case "contact.html":
+      navLinks[11].classList.add("active");
+      break;
     default:
-      navLinks[0]?.classList.add("active");
       break;
   }
   })();

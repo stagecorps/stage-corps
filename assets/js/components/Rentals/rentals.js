@@ -1,12 +1,15 @@
 (async () => {
     let rentalItems = [];
     for (let i = 1; i <= 20; i++) {
-        const response = await fetch(`../assets/db/page${i}.json`);
+        const response = await fetch(`../db/page${i}.json`);
         const data = await response.json();
         data.assets.forEach(item => rentalItems.push(item));
     }
     rentalItems = rentalItems.filter((item, index, self) => item.name != self[index - 1]?.name);
     document.getElementById('rental').innerHTML = `
+<div class="container section-title" data-aos="fade-up">
+    <h2>Inventory</h2>
+</div>
 <div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">

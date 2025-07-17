@@ -1,4 +1,6 @@
 (function (){
+  const currentPage = window.location.pathname.split("/").pop();
+  const isIndexPage = currentPage === "index.html";
     document.getElementById("footer").innerHTML = `
     <div class="container footer-top">
       <div class="row gy-4">
@@ -22,11 +24,11 @@
         <div class="col-lg-4 col-md-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Lighting Design</a></li>
-            <li><a href="#">Scenic Design</a></li>
-            <li><a href="#">Labor</a></li>
-            <li><a href="#">Rentals</a></li>
-            <li><a href="#">Sales</a></li>
+            <li><a href=${isIndexPage ? "pages/light-design.html" : "light-design.html"}>Lighting Design</a></li>
+            <li><a href=${isIndexPage ? "pages/scenic-design.html" : "scenic-design.html"}>Scenic Design</a></li>
+            <li><a href=${isIndexPage ? "pages/labor.html" : "labor.html"}>Labor</a></li>
+            <li><a href=${isIndexPage ? "pages/rentals.html" : "rentals.html"}>Rentals</a></li>
+            <li><a href=${isIndexPage ? "pages/sales.html" : "sales.html"}>Sales</a></li>
           </ul>
         </div>
 

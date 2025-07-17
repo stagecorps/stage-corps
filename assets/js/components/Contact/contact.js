@@ -2,7 +2,7 @@
     document.getElementById("contact").innerHTML = `
 <div class="container section-title" data-aos="fade-up">
     <h2>Contact</h2>
-</div><!-- End Section Title -->
+</div>
 
 <div class="container" data-aos="fade">
 

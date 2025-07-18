@@ -1,9 +1,9 @@
 (() => {
   const header = document.getElementById("header");
   const currentPage = window.location.pathname.split("/").pop();
-  console.log("Current Page:", currentPage);
   const isIndexPage = currentPage === "index.html" || currentPage == "";
-  header.innerHTML=`
+  console.log("isIndexPage", isIndexPage);
+  header.innerHTML = `
 <div class="container position-relative d-flex align-items-center">
 
     <a href=${isIndexPage ? "/index.html" : "../index.html"} class="logo d-flex align-items-center me-auto">
@@ -46,7 +46,7 @@
 
 </div>
   `;
-  
+
   const navLinks = document.querySelectorAll("#navmenu a");
   switch (currentPage) {
     case "index.html":
@@ -82,4 +82,4 @@
     default:
       break;
   }
-  })();
+})();

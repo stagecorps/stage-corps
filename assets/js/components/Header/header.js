@@ -2,37 +2,37 @@
   const header = document.getElementById("header");
   const currentPage = window.location.pathname.split("/").pop();
   console.log("Current Page:", currentPage);
-  const isIndexPage = currentPage === "index.html" || "";
+  const isIndexPage = currentPage === "index.html";
   header.innerHTML=`
 <div class="container position-relative d-flex align-items-center">
 
-    <a href=${isIndexPage ? "index.html" : "../index.html"} class="logo d-flex align-items-center me-auto">
+    <a href=${isIndexPage ? "/index.html" : "../index.html"} class="logo d-flex align-items-center me-auto">
         <img src=${isIndexPage ? "assets/img/logo.png" : "../assets/img/logo.png"} style="background-color: white; border-radius: 50%;" alt="">
         <h1 class="sitename">Stage Corps</h1>
     </a>
 
     <nav id="navmenu" class="navmenu">
         <ul>
-            <li><a href=${isIndexPage ? "#hero" : "../index.html"}>Home</a></li>
-            <li class="dropdown"><a href=${isIndexPage ? "#about" : "../index.html#about"}><span>About</span> <i
+            <li><a href=${isIndexPage ? "/#hero" : "../index.html"}>Home</a></li>
+            <li class="dropdown"><a href=${isIndexPage ? "/#about" : "../index.html#about"}><span>About</span> <i
                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                    <li><a href=${isIndexPage ? "pages/team.html" : "team.html"}>Team</a></li>
-                    <li><a href=${isIndexPage ? "pages/testimonials.html" : "testimonials.html"}>Testimonials</a></li>
+                    <li><a href=${isIndexPage ? "/pages/team.html" : "/team.html"}>Team</a></li>
+                    <li><a href=${isIndexPage ? "/pages/testimonials.html" : "/testimonials.html"}>Testimonials</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href=${isIndexPage ? "pages/rentals.html" : "rentals.html"}><span>Services</span> <i
+            <li class="dropdown"><a href=${isIndexPage ? "/pages/rentals.html" : "/rentals.html"}><span>Services</span> <i
                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                    <li><a href=${isIndexPage ? "pages/light-design.html" : "light-design.html"}>Light Design</a></li>
-                    <li><a href=${isIndexPage ? "pages/scenic-design.html" : "scenic-design.html"}>Scenic Design</a></li>
-                    <li><a href=${isIndexPage ? "pages/labor.html" : "labor.html"}>Labor</a></li>
-                    <li><a href=${isIndexPage ? "pages/rentals.html" : "rentals.html"}>Rentals</a></li>
-                    <li><a href=${isIndexPage ? "pages/sales.html" : "sales.html"}>Sales</a></li>
+                    <li><a href=${isIndexPage ? "/pages/light-design.html" : "/light-design.html"}>Light Design</a></li>
+                    <li><a href=${isIndexPage ? "/pages/scenic-design.html" : "/scenic-design.html"}>Scenic Design</a></li>
+                    <li><a href=${isIndexPage ? "/pages/labor.html" : "/labor.html"}>Labor</a></li>
+                    <li><a href=${isIndexPage ? "/pages/rentals.html" : "/rentals.html"}>Rentals</a></li>
+                    <li><a href=${isIndexPage ? "/pages/sales.html" : "/sales.html"}>Sales</a></li>
                 </ul>
             </li>
-            <li><a href=${isIndexPage ? "pages/portfolio.html" : "portfolio.html"}>Portfolio</a></li>
-            <li><a href=${isIndexPage ? "pages/contact.html" : "contact.html"}>Contact</a></li>
+            <li><a href=${isIndexPage ? "/pages/portfolio.html" : "/portfolio.html"}>Portfolio</a></li>
+            <li><a href=${isIndexPage ? "/pages/contact.html" : "/contact.html"}>Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
     </nav>

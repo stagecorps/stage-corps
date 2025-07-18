@@ -1,23 +1,23 @@
 (() => {
   const header = document.getElementById("header");
   const currentPage = window.location.pathname.split("/").pop();
-  const isIndexPage = currentPage === "/" || currentPage === "index.html";
+  const isIndexPage = currentPage === "index.html" || "stage-corps";
   header.innerHTML=`
 <div class="container position-relative d-flex align-items-center">
 
-    <a href="/" onclick="route()"  class="logo d-flex align-items-center me-auto">
+    <a href=${isIndexPage ? "index.html" : "../index.html"} class="logo d-flex align-items-center me-auto">
         <img src=${isIndexPage ? "assets/img/logo.png" : "../assets/img/logo.png"} style="background-color: white; border-radius: 50%;" alt="">
         <h1 class="sitename">Stage Corps</h1>
     </a>
 
     <nav id="navmenu" class="navmenu">
         <ul>
-            <li><a href=${isIndexPage ? "#hero" : "/"} onclick="route()">Home</a></li>
-            <li class="dropdown"><a href=${isIndexPage ? "#about" : "/#about"} onclick="route()"><span>About</span> <i
+            <li><a href=${isIndexPage ? "#hero" : "../index.html"}>Home</a></li>
+            <li class="dropdown"><a href=${isIndexPage ? "#about" : "../index.html#about"}><span>About</span> <i
                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                    <li><a href="/team" onclick="route()">Team</a></li>
-                    <li><a href="/testimonials" onclick="route()">Testimonials</a></li>
+                    <li><a href=${isIndexPage ? "pages/team.html" : "team.html"}>Team</a></li>
+                    <li><a href=${isIndexPage ? "pages/testimonials.html" : "testimonials.html"}>Testimonials</a></li>
                 </ul>
             </li>
             <li class="dropdown"><a href=${isIndexPage ? "pages/rentals.html" : "rentals.html"}><span>Services</span> <i

@@ -2,7 +2,7 @@
   const header = document.getElementById("header");
   const currentPage = window.location.pathname.split("/").pop();
   console.log("Current Page:", currentPage);
-  const isIndexPage = currentPage === "index.html";
+  const isIndexPage = currentPage === "index.html" || currentPage == "";
   header.innerHTML=`
 <div class="container position-relative d-flex align-items-center">
 

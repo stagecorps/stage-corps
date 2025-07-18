@@ -1,7 +1,7 @@
 (() => {
   const header = document.getElementById("header");
   const currentPage = window.location.pathname.split("/").pop();
-  const isIndexPage = currentPage === "index.html";
+  const isIndexPage = currentPage === "index.html" || "stage-corps";
   header.innerHTML=`
 <div class="container position-relative d-flex align-items-center">
 

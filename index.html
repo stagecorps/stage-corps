@@ -42,27 +42,67 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top"></header>
-  <script src="assets/js/components/Header/header.js"></script>
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center">
+
+      <a href="/stage-corps/" onclick="route()" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" style="background-color: white; border-radius: 50%;" alt="">
+        <h1 class="sitename">Stage Corps</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="/stage-corps/" class="active">Home</a></li>
+          <li class="dropdown"><a href="/stage-corps/#about"><span>About</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="/stage-corps/team">Team</a></li>
+              <li><a href="/stage-corps/testimonials">Testimonials</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="/stage-corps/services/rentals"><span>Services</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="/stage-corps/services/light-design">Light Design</a></li>
+              <li><a href="/stage-corps/services/scenic-design">Scenic Design</a></li>
+              <li><a href="/stage-corps/services/labor">Labor</a></li>
+              <li><a href="/stage-corps/services/rentals">Rentals</a></li>
+              <li><a href="/stage-corps/services/sales">Sales</a></li>
+            </ul>
+          </li>
+          <li><a href="/stage-corps/portfolio">Portfolio</a></li>
+          <li><a href="/stage-corps/contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.facebook.com/StageCorps" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/stagecorps/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/stage-corps-llc/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="tel:2145753750" class="phone"><i class="bi bi-telephone"></i></a>
+      </div>
+
+    </div>
+  </header>
+
 
   <main class="main">
-
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background"></section>
-    <script src="assets/js/components/Hero/hero.js"></script>
+    <script src="../assets/js/components/Hero/hero.js"></script>
 
     <!-- About Section -->
     <section id="about" class="about section"></section>
-    <script src="assets/js/components/About/about.js"></script>
+    <script src="../assets/js/components/About/about.js"></script>
 
     <!-- Clients Section -->
     <section id="clients" class="clients section"></section>
-    <script src="assets/js/components/Clients/clients.js"></script>
+    <script src="../assets/js/components/Clients/clients.js"></script>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section"></section>
-    <script src="assets/js/components/Contact/contact.js"></script>
-
+    <script src="../assets/js/components/Contact/contact.js"></script>
   </main>
 
   <footer id="footer" class="footer dark-background"></footer>
@@ -86,6 +126,10 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+  <!-- Router JS File -->
+  <script src="assets/js/router.js"></script>
 
 </body>
 

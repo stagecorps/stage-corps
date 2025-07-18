@@ -18,21 +18,21 @@
                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                     <li><a href=${isDeployed ? "/stage-corps/pages/team.html" : isIndexPage ? "/pages/team.html" : "/team.html"}>Team</a></li>
-                    <li><a href=${isIndexPage ? "/pages/testimonials.html" : "/testimonials.html"}>Testimonials</a></li>
+                    <li><a href=${isDeployed ? "/stage-corps/pages/testimonials.html" : isIndexPage ? "/pages/testimonials.html" : "/testimonials.html"}>Testimonials</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href=${isIndexPage ? "/pages/rentals.html" : "/rentals.html"}><span>Services</span> <i
+            <li class="dropdown"><a href=${isDeployed ? "/stage-corps/pages/rentals.html" : isIndexPage ? "/pages/rentals.html" : "/rentals.html"}><span>Services</span> <i
                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                    <li><a href=${isIndexPage ? "/pages/light-design.html" : "/light-design.html"}>Light Design</a></li>
-                    <li><a href=${isIndexPage ? "/pages/scenic-design.html" : "/scenic-design.html"}>Scenic Design</a></li>
-                    <li><a href=${isIndexPage ? "/pages/labor.html" : "/labor.html"}>Labor</a></li>
-                    <li><a href=${isIndexPage ? "/pages/rentals.html" : "/rentals.html"}>Rentals</a></li>
-                    <li><a href=${isIndexPage ? "/pages/sales.html" : "/sales.html"}>Sales</a></li>
+                    <li><a href=${isDeployed ? "/stage-corps/pages/light-design.html" : isIndexPage ? "/pages/light-design.html" : "/light-design.html"}>Light Design</a></li>
+                    <li><a href=${isDeployed ? "/stage-corps/pages/scenic-design.html" : isIndexPage ? "/pages/scenic-design.html" : "/scenic-design.html"}>Scenic Design</a></li>
+                    <li><a href=${isDeployed ? "/stage-corps/pages/labor.html" : isIndexPage ? "/pages/labor.html" : "/labor.html"}>Labor</a></li>
+                    <li><a href=${isDeployed ? "/stage-corps/pages/rentals.html" : isIndexPage ? "/pages/rentals.html" : "/rentals.html"}>Rentals</a></li>
+                    <li><a href=${isDeployed ? "/stage-corps/pages/sales.html" : isIndexPage ? "/pages/sales.html" : "/sales.html"}>Sales</a></li>
                 </ul>
             </li>
-            <li><a href=${isIndexPage ? "/pages/portfolio.html" : "/portfolio.html"}>Portfolio</a></li>
-            <li><a href=${isIndexPage ? "/pages/contact.html" : "/contact.html"}>Contact</a></li>
+            <li><a href=${isDeployed ? "/stage-corps/pages/portfolio.html" : isIndexPage ? "/pages/portfolio.html" : "/portfolio.html"}>Portfolio</a></li>
+            <li><a href=${isDeployed ? "/stage-corps/pages/contact.html" : isIndexPage ? "/pages/contact.html" : "/contact.html"}>Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
     </nav>

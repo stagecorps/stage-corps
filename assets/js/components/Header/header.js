@@ -2,7 +2,7 @@
   const header = document.getElementById("header");
   const currentPage = window.location.pathname.split("/").pop();
   console.log("Current Page:", currentPage);
-  const isIndexPage = currentPage === "index.html" || "stage-corps";
+  const isIndexPage = currentPage === "index.html" || "";
   header.innerHTML=`
 <div class="container position-relative d-flex align-items-center">
 
@@ -52,7 +52,7 @@
     case "index.html":
       navLinks[0].classList.add("active");
       break;
-      case "team.html":
+    case "team.html":
       navLinks[1].classList.add("active");
       break;
     case "testimonials.html":

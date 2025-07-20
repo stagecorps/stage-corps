@@ -6,15 +6,15 @@
   header.innerHTML = `
 <div class="container position-relative d-flex align-items-center">
 
-    <a href=${isDeployed ? "/stage-corps/index.html" : isIndexPage ? "/index.html" : "../index.html"} class="logo d-flex align-items-center me-auto">
+    <a href=${isDeployed ? "/stage-corps/" : isIndexPage ? "/index.html" : "../index.html"} class="logo d-flex align-items-center me-auto">
         <img src=${isIndexPage ? "assets/img/logo.png" : "../assets/img/logo.png"} style="background-color: white; border-radius: 50%;" alt="">
         <h1 class="sitename">Stage Corps</h1>
     </a>
 
     <nav id="navmenu" class="navmenu">
         <ul>
-            <li><a href=${isDeployed ? "/stage-corps/index.html" : isIndexPage ? "/#hero" : "../index.html"}>Home</a></li>
-            <li class="dropdown"><a href=${isDeployed ? "/stage-corps/index.html#about" : isIndexPage ? "/#about" : "../index.html#about"}><span>About</span> <i
+            <li><a href=${isDeployed ? "/stage-corps/#hero" : isIndexPage ? "/#hero" : "../index.html"}>Home</a></li>
+            <li class="dropdown"><a href=${isDeployed ? "/stage-corps/#about" : isIndexPage ? "/#about" : "../index.html#about"}><span>About</span> <i
                         class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                     <li><a href=${isDeployed ? "/stage-corps/pages/team.html" : isIndexPage ? "/pages/team.html" : "/team.html"}>Team</a></li>

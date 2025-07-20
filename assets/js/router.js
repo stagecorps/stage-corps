@@ -7,6 +7,7 @@ const route = async (e) => {
 
 const routes = {
     "": "../../pages/main.html",
+    "index.html": "../../pages/main.html",
     "team": "../../pages/team.html",
     "testimonials": "../../pages/testimonials.html",
     "light-design": "../../pages/light-design.html",

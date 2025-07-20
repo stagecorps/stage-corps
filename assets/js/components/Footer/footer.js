@@ -26,11 +26,11 @@
         <div class="col-lg-4 col-md-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href=${isDeployed ? "/stage-corps/pages/light-design.html" : isIndexPage ? "pages/light-design.html" : "light-design.html"}>Lighting Design</a></li>
-            <li><a href=${isDeployed ? "/stage-corps/pages/scenic-design.html" : isIndexPage ? "pages/scenic-design.html" : "scenic-design.html"}>Scenic Design</a></li>
-            <li><a href=${isDeployed ? "/stage-corps/pages/labor.html" : isIndexPage ? "pages/labor.html" : "labor.html"}>Labor</a></li>
-            <li><a href=${isDeployed ? "/stage-corps/pages/rentals.html" : isIndexPage ? "pages/rentals.html" : "rentals.html"}>Rentals</a></li>
-            <li><a href=${isDeployed ? "/stage-corps/pages/sales.html" : isIndexPage ? "pages/sales.html" : "sales.html"}>Sales</a></li>
+            <li><a href=${isDeployed ? "/light-design.html" : isIndexPage ? "pages/light-design.html" : "light-design.html"}>Lighting Design</a></li>
+            <li><a href=${isDeployed ? "/scenic-design.html" : isIndexPage ? "pages/scenic-design.html" : "scenic-design.html"}>Scenic Design</a></li>
+            <li><a href=${isDeployed ? "/labor.html" : isIndexPage ? "pages/labor.html" : "labor.html"}>Labor</a></li>
+            <li><a href=${isDeployed ? "/rentals.html" : isIndexPage ? "pages/rentals.html" : "rentals.html"}>Rentals</a></li>
+            <li><a href=${isDeployed ? "/sales.html" : isIndexPage ? "pages/sales.html" : "sales.html"}>Sales</a></li>
           </ul>
         </div>
 

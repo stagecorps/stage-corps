@@ -17,62 +17,31 @@
         }
     ];
 
-    const hero = document.getElementById('hero');
-    const heroCarousel = document.createElement('div');
-    heroCarousel.id = 'hero-carousel';
-    heroCarousel.className = 'carousel slide carousel-fade';
-    heroCarousel.setAttribute('data-bs-ride', 'carousel');
-    heroCarousel.setAttribute('data-bs-interval', '5000');
-   
-    carouselItems.forEach(item => {
-        const { image, title, description } = item;
-        const carouselItem = document.createElement('div');
-        carouselItem.className = 'carousel-item';
-        if (item === carouselItems[0]) {
-            carouselItem.classList.add('active');
-        };
-        const imageElement = document.createElement('img');
-        imageElement.src = image;
-        carouselItem.appendChild(imageElement);
-        const container = document.createElement('div');
-        container.className = 'container';
-        const h2 = document.createElement('h2');
-        h2.textContent = title;
-        const p = document.createElement('p');
-        p.textContent = description;
-        const button = document.createElement('a');
-        button.href = 'index.html#about';
-        button.className = 'btn-get-started';
-        button.textContent = 'Read More';
-        container.appendChild(h2);
-        container.appendChild(p);
-        container.appendChild(button);
-        carouselItem.appendChild(container);
-        heroCarousel.appendChild(carouselItem);
-    });
+    document.getElementById('hero').innerHTML = `
+<div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+    ${carouselItems.map(item => `
+        <div class="carousel-item active">
+            <img src=${item.image} alt="">
+            <div class="container">
+                <h2>${item.title}</h2>
+                <p>${item.description}</p>
+                <a href="#about" class="btn-get-started">Read More</a>
+            </div>
+        </div>
+        `).join('')}
+
+    <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+    </a>
+
+    <ol class="carousel-indicators"></ol>
+
+</div>
+    `;
     
-    const prev = document.createElement('a');
-    prev.className = 'carousel-control-prev';
-    prev.href = '#hero-carousel';
-    prev.setAttribute('role', 'button');
-    prev.setAttribute('data-bs-slide', 'prev');
-    const prevIcon = document.createElement('span');
-    prevIcon.className = 'carousel-control-prev-icon bi bi-chevron-left';
-    prevIcon.setAttribute('aria-hidden', 'true');
-    prev.appendChild(prevIcon);
-    const next = document.createElement('a');
-    next.className = 'carousel-control-next';
-    next.href = '#hero-carousel';
-    next.setAttribute('role', 'button');
-    next.setAttribute('data-bs-slide', 'next');
-    const nextIcon = document.createElement('span');
-    nextIcon.className = 'carousel-control-next-icon bi bi-chevron-right';
-    nextIcon.setAttribute('aria-hidden', 'true');
-    next.appendChild(nextIcon);
-    heroCarousel.appendChild(prev);
-    heroCarousel.appendChild(next);
-    const carouselIndicators = document.createElement('ol');
-    carouselIndicators.className = 'carousel-indicators';
-    heroCarousel.appendChild(carouselIndicators);
-    hero.appendChild(heroCarousel);
 })();

@@ -6,17 +6,17 @@ const route = async (e) => {
 };
 
 const routes = {
-    "": "../../pages/main.html",
-    "index.html": "../../pages/main.html",
-    "team": "../../pages/team.html",
-    "testimonials": "../../pages/testimonials.html",
-    "light-design": "../../pages/light-design.html",
-    "scenic-design": "../../pages/scenic-design.html",
-    "labor": "../../pages/labor.html",
-    "sales": "../../pages/sales.html",
-    "rentals": "../../pages/rentals.html",
-    "portfolio": "../../pages/portfolio.html",
-    "contact": "../../pages/contact.html",
+    "/stage-corps/": "../../pages/main.html",
+    "/stage-corps/index.html": "../../pages/main.html",
+    "/stage-corps/team": "../../pages/team.html",
+    "/stage-corps/testimonials": "../../pages/testimonials.html",
+    "/stage-corps/light-design": "../../pages/light-design.html",
+    "/stage-corps/scenic-design": "../../pages/scenic-design.html",
+    "/stage-corps/labor": "../../pages/labor.html",
+    "/stage-corps/sales": "../../pages/sales.html",
+    "/stage-corps/rentals": "../../pages/rentals.html",
+    "/stage-corps/portfolio": "../../pages/portfolio.html",
+    "/stage-corps/contact": "../../pages/contact.html",
     "*": "../../main.html"
 }
 

@@ -6,17 +6,17 @@ const route = async (e) => {
 };
 
 const routes = {
-    "/": "../../pages/main.html",
-    "/team": "../../pages/team.html",
-    "/testimonials": "../../pages/testimonials.html",
-    "/light-design": "../../pages/light-design.html",
-    "/scenic-design": "../../pages/scenic-design.html",
-    "/labor": "../../pages/labor.html",
-    "/sales": "../../pages/sales.html",
-    "/rentals": "../../pages/rentals.html",
-    "/portfolio": "../../pages/portfolio.html",
-    "/contact": "../../pages/contact.html",
-    "*": "../../main.html"
+    "/": "pages/main.html",
+    "/team": "pages/team.html",
+    "/testimonials": "pages/testimonials.html",
+    "/light-design": "pages/light-design.html",
+    "/scenic-design": "pages/scenic-design.html",
+    "/labor": "pages/labor.html",
+    "/sales": "pages/sales.html",
+    "/rentals": "pages/rentals.html",
+    "/portfolio": "pages/portfolio.html",
+    "/contact": "pages/contact.html",
+    "*": "main.html"
 }
 
 const handleLocation = async () => {

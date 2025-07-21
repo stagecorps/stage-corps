@@ -877,7 +877,7 @@ section,
 
 .hero .btn-get-started:hover {
   background: var(--accent-color);
-  color: var(--contrast-color);
+  color: var(black);
 }
 
 .hero .carousel-control-prev {

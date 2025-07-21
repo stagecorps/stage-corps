@@ -937,7 +937,7 @@ section,
 .hero .carousel-control-next:hover .carousel-control-next-icon,
 .hero .carousel-control-next:hover .carousel-control-prev-icon {
   background: var(--accent-color);
-  color: var(--default-color);
+  color: black;
 }
 
 .hero .carousel-indicators li {

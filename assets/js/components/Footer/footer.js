@@ -1,4 +1,4 @@
-(function (){
+(()=>{
   const currentPage = window.location.pathname.split("/").pop();
   const isIndexPage = currentPage === "index.html";
   const isThankYouPage = currentPage === "thank-you.html";

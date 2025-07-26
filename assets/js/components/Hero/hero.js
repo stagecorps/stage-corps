@@ -1,4 +1,4 @@
-(function (){
+(()=>{
      const carouselItems = [
         {
             image: 'assets/img/hero-carousel/hero-carousel-1.jpg',

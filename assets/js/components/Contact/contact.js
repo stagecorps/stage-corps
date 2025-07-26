@@ -1,4 +1,4 @@
-(function (){
+(()=>{
     document.getElementById("contact").innerHTML = `
 <div class="container section-title" data-aos="fade-up">
     <h2>Contact</h2>

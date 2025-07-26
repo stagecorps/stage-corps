@@ -1,4 +1,4 @@
-(function (){
+(()=>{
     const portfolioItems = [
         {
             image: "../assets/img/portfolio/ChamberlainNutcrackerSnow.jpg",

@@ -1,4 +1,4 @@
-(function (){
+(()=>{
     const clientItems = [
         {
             image: "assets/img/clients/client-1.png",

@@ -1,4 +1,4 @@
-(function (){
+(()=>{
     document.getElementById("about").innerHTML = `
     <div class="container">
 

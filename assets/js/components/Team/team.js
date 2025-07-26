@@ -1,4 +1,4 @@
-(function () {
+(()=>{
     const teamSection = document.getElementById('team');
     const teamMembers = [
         {

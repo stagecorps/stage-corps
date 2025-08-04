@@ -1,3 +1,4 @@
+import { FC } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 const testimonials = [
@@ -45,7 +46,7 @@ const testimonials = [
     }
 ];
 
-const Testimonials: React.FC = () => {
+const Testimonials: FC = () => {
     return (
         <section id="testimonials" className="section testimonials">
             <Container>

@@ -1,6 +1,7 @@
+import { FC } from "react";
 import { Container, Col, Row, Button, Image } from "react-bootstrap";
 
-const About: React.FC = () => {
+const About: FC = () => {
     return (
         <section id="about" className="about">
             <Container>

@@ -1,7 +1,7 @@
+import { FC } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap'
 
-const Clients: React.FC = () => {
-    const clientItems = [
+const clientItems = [
         {
             image: "img/clients/client-1.png",
             link: ""
@@ -36,6 +36,7 @@ const Clients: React.FC = () => {
         }
     ]
 
+const Clients: FC = () => {
     return (
         <section id='clients' className="clients section">
             <Container className="section-title" >

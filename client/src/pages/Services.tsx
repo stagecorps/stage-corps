@@ -1,5 +1,5 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { MouseEvent, MouseEventHandler, useState } from "react";
+import { FC, MouseEvent, useState } from "react";
 
 type ServiceKey = "Light Design" | "Scenic Design" | "Labor" | "Rentals" | "Sales";
 
@@ -35,11 +35,11 @@ const serviceData = {
     }
 };
 
-const Services: React.FC<ServiceProps> = (props: ServiceProps) => {
+const Services: FC<ServiceProps> = (props: ServiceProps) => {
     const { serviceKey } = props;
     const [serviceDetails, setServiceDetails] = useState(serviceData[serviceKey])
 
-    const handleClick: MouseEventHandler<HTMLAnchorElement> = (e: MouseEvent<HTMLAnchorElement>) => {
+    const handleClick = (e: MouseEvent<HTMLAnchorElement>) => {
         const target = e.target as HTMLAnchorElement;
         document.querySelectorAll('a').forEach(link=>link.classList.remove("active"))
         target.classList.add("active")
@@ -71,7 +71,6 @@ const Services: React.FC<ServiceProps> = (props: ServiceProps) => {
                 </Row>
             </Container >
         </section>
-
     )
 }
 

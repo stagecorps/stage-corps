@@ -2,8 +2,9 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Clients from "../components/Client";
 import Contact from "../components/Contact";
+import { FC } from "react";
 
-const Home: React.FC = () => {
+const Home: FC = () => {
     return (
         <main className="main">
             <Hero />

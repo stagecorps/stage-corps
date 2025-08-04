@@ -1,3 +1,4 @@
+import { FC } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 const teamMembers = [
@@ -39,7 +40,7 @@ const teamMembers = [
     }
 ];
 
-const Team: React.FC = () => {
+const Team: FC = () => {
     return (
         <section id="team" className="team section">
             <Container className="section-title">

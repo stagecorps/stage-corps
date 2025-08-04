@@ -1,7 +1,7 @@
 import { Carousel, Container, Image } from "react-bootstrap";
-import { useState } from "react";
+import { FC, useState } from "react";
 
-const Hero: React.FC = () => {
+const Hero: FC = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const carouselItems = [
         {

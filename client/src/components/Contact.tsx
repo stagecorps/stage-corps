@@ -1,6 +1,7 @@
+import { FC } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap'
 
-const Contact: React.FC = () => {
+const Contact: FC = () => {
     return (
         <section id="contact" className="contact">
             <Container>

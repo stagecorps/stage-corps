@@ -1,6 +1,7 @@
+import { FC } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-const Footer: React.FC = () => {
+const Footer: FC = () => {
     return (
         <footer id="footer" className="footer dark-background">
             <Container className="footer-top">
@@ -24,11 +25,11 @@ const Footer: React.FC = () => {
                     <Col lg={4} md={6} className="footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><a href="#">Lighting Design</a></li>
-                            <li><a href="#">Scenic Design</a></li>
-                            <li><a href="#">Labor</a></li>
-                            <li><a href="#">Rentals</a></li>
-                            <li><a href="#">Sales</a></li>
+                            <li><a href="/services/light-design">Lighting Design</a></li>
+                            <li><a href="/services/scenic-design">Scenic Design</a></li>
+                            <li><a href="/services/labor">Labor</a></li>
+                            <li><a href="/services/rentals">Rentals</a></li>
+                            <li><a href="/services/sales">Sales</a></li>
                         </ul>
                     </Col>
                     <Col lg={4} md={12} className="footer-newsletter">

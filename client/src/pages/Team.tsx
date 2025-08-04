@@ -47,9 +47,9 @@ const Team: React.FC = () => {
             </Container>
             <Container>
                 <Row className="gy-4">
-                    {teamMembers.map((member, index) => {
+                    {teamMembers.map((member) => {
                         return (
-                            <Col lg={3} md={6} key={index} className="d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                            <Col lg={3} md={6} key={member.name} className="d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                                 <div className="team-member">
                                     <div className="member-img">
                                         <Image src={member.image} fluid />
@@ -62,7 +62,7 @@ const Team: React.FC = () => {
                                     </div>
                                     <div className="member-info">
                                         <h4>{member.name}</h4>
-                                        {member.positions.map(pos => <span>{pos}</span>)}
+                                        {member.positions.map((pos) => <span key={pos}>{pos}</span>)}
                                     </div>
                                 </div>
                             </Col>

@@ -32,14 +32,14 @@ const Header: React.FC = () => {
                                 <li><a href="/testimonials">Testimonials</a></li>
                             </ul>
                         </li>
-                        <li className="dropdown"><a href="/services"><span>Services</span> <i
+                        <li className="dropdown"><a href="/services/light-design"><span>Services</span> <i
                             className="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="/light-design">Light Design</a></li>
-                                <li><a href="/scenic-design">Scenic Design</a></li>
-                                <li><a href="/labor">Labor</a></li>
-                                <li><a href="/rentals">Rentals</a></li>
-                                <li><a href="/sales">Sales</a></li>
+                                <li><a href="/services/light-design">Light Design</a></li>
+                                <li><a href="/services/scenic-design">Scenic Design</a></li>
+                                <li><a href="/services/labor">Labor</a></li>
+                                <li><a href="/services/rentals">Rentals</a></li>
+                                <li><a href="/services/sales">Sales</a></li>
                             </ul>
                         </li>
                         <li><a href="/portfolio">Portfolio</a></li>

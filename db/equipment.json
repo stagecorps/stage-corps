@@ -1,74 +1,74 @@
 [
     {
         "name": "Aquamax Hazer MP-3",
-        "image": "img/equipment/aquamax-mp-3-final-lrg-black.jpg"
+        "display_image": "img/equipment/aquamax-mp-3-final-lrg-black.jpg"
     },
     {
         "name": "Choreo Angle",
-        "image": "img/equipment/Choreo-Angle-Web.jpg"
+        "display_image": "img/equipment/Choreo-Angle-Web.jpg"
     },
     {
         "name": "Comrade",
-        "image": "img/equipment/comrade.png"
+        "display_image": "img/equipment/comrade.png"
     },
     {
         "name": "ETC Express 24/48",
-        "image": "img/equipment/ETCExpress24-48.jpg"
+        "display_image": "img/equipment/ETCExpress24-48.jpg"
     },
     {
         "name": "ETC Ion XE 20",
-        "image": "img/equipment/ETCIONXE20Console.jpg"
+        "display_image": "img/equipment/ETCIONXE20Console.jpg"
     },
     {
         "name": "Grunt 240",
-        "image": "img/equipment/Grunt240.jpg"
+        "display_image": "img/equipment/Grunt240.jpg"
     },
     {
         "name": "LED Follow Spot 350",
-        "image": "img/equipment/LEDfollowspot350.jpg"
+        "display_image": "img/equipment/LEDfollowspot350.jpg"
     },
     {
         "name": "Little Blizzard",
-        "image": "img/equipment/little_blizzard.jpg"
+        "display_image": "img/equipment/little_blizzard.jpg"
     },
     {
         "name": "Maniac Fog",
-        "image": "img/equipment/maniac-ii.jpg"
+        "display_image": "img/equipment/maniac-ii.jpg"
     },
     {
         "name": "Martin Rush UV Par",
-        "image": "img/equipment/MartinRush4UVPAR.jpg"
+        "display_image": "img/equipment/MartinRush4UVPAR.jpg"
     },
     {
         "name": "Mini Source 4",
-        "image": "img/equipment/MiniSource4.jfif"
+        "display_image": "img/equipment/MiniSource4.jfif"
     },
     {
         "name": "Poseidon Aqua 2 Ultrasonic Ground Fogger",
-        "image": "img/equipment/PoseidonAqua2UltrasonicGroundFogGenerator.jfif"
+        "display_image": "img/equipment/PoseidonAqua2UltrasonicGroundFogGenerator.jfif"
     },
     {
         "name": "Pro Cyc",
-        "image": "img/equipment/ProCyc-Product-Shot.jpg"
+        "display_image": "img/equipment/ProCyc-Product-Shot.jpg"
     },
     {
         "name": "Scout",
-        "image": "img/equipment/Scout.png"
+        "display_image": "img/equipment/Scout.png"
     },
     {
         "name": "SolaFrame 2000",
-        "image": "img/equipment/SolaFrame_2000.jpg"
+        "display_image": "img/equipment/SolaFrame_2000.jpg"
     },
     {
         "name": "Titan HT6 Hazer",
-        "image": "img/equipment/TITANHT6Fog.jfif"
+        "display_image": "img/equipment/TITANHT6Fog.jfif"
     },
     {
         "name": "VL 3500 Spot",
-        "image": "img/equipment/VL3500Spot.jfif"
+        "display_image": "img/equipment/VL3500Spot.jfif"
     },
     {
         "name": "Ziba",
-        "image": "img/equipment/ZibaZB20.jpg"
+        "display_image": "img/equipment/ZibaZB20.jpg"
     }
 ]

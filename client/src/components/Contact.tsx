@@ -3,7 +3,10 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 
 const Contact: FC = () => {
     return (
-        <section id="contact" className="contact">
+        <section id="contact" className="section contact">
+            <div className="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
+            </div>
             <Container>
                 <Row>
                     <Col lg={6} className="d-flex flex-column justify-content-center align-items-stretch">

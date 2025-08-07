@@ -1,0 +1,28 @@
+{
+  "name": "stagecorps",
+  "version": "1.0.0",
+  "description": "Template Name: Company\r Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/\r Author: BootstrapMade.com\r License: https://bootstrapmade.com/license/",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "build": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
+    "install": "concurrently \"cd server && npm i\" \"cd client && npm i\"",
+    "client:dev": "cd client && npm run dev",
+    "server:dev": "cd server && npm run dev",
+    "dev": "nodemon"
+  },
+  "nodemonConfig":{
+    "watch": ["server/src", "client/src"],
+    "ext": "ts, tsx",
+    "delay": "5000ms",
+    "exec": "npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.0",
+    "dotenv": "^17.2.1",
+    "nodemon": "^3.1.10"
+  }
+}

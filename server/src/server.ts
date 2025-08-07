@@ -1,14 +1,31 @@
 import express, { Request, Response } from 'express';
+import dotenv from 'dotenv'
+import path from 'node:path';
+
+dotenv.config()
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('../client/dist'));
+app.use(express.static(path.join(__dirname, '../../client/dist')));
 
-app.get('/', (req: Request, res: Response) => {
-  res.sendFile('index.html');
+app.get('/ezrentout/assets', async (req: Request, res: Response) => {
+  const { page } = req.query || 1;
+  const response = await fetch(`https://stagecorps.ezrentout.com/assets.api?page=${page}`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      'token': process.env.EZRENTOUT_TOKEN || ''
+    }
+  });
+  const data = await response.json();
+  res.json(data);
+})
+
+app.get(/(.*)/, (_req: Request, res: Response) => {
+  res.sendFile(path.join(__dirname, '../../client/dist', 'index.html'));
 });
 
 app.listen(PORT, () => {

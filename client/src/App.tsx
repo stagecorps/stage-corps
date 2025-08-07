@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Home, Team, Testimonials, Services, Inventory, Portfolio } from './pages'
+import { Home, Team, Testimonials, Services, Inventory, Portfolio, ThankYou } from './pages'
 import Contact from './components/Contact'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -34,6 +34,7 @@ function App() {
         <Route path='/inventory' element={<Inventory />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/thank-you' element={<ThankYou />} />
         <Route path='*' element={<h1>404 Not Found</h1>} />
       </Routes>
       <Footer />

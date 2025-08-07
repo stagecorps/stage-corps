@@ -22,19 +22,18 @@ app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use(express_1.default.static(node_path_1.default.join(__dirname, '../../client/dist')));
 app.get('/ezrentout/assets', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const { page } = req.query || 1;
-    const response = yield fetch(`https://stagecorps.ezrentout.com/assets.api?page=${page}`, {
+    const { page } = req.query || '1';
+    const data = yield fetch(`https://stagecorps.ezrentout.com/assets.api?page=${page}`, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
             'token': process.env.EZRENTOUT_TOKEN || ''
         }
     });
-    const data = yield response.json();
     res.json(data);
 }));
 app.get(/(.*)/, (_req, res) => {
-    res.sendFile(node_path_1.default.join(__dirname, '../../client/dist', 'index.html'));
+    res.sendFile('index.html');
 });
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);

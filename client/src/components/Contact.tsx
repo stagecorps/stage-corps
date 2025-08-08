@@ -40,7 +40,7 @@ const Contact: FC = () => {
                             <input type="hidden" name="subject" value="Message from a new client!" />
                             <input type="hidden" name="from_name" value="Leads" />
                             <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
-                            <input type="hidden" name="redirect" value="localhost:3000/thank-you" />
+                            <input type="hidden" name="redirect" value="http://localhost:3000/thank-you" />
                             <div className="row">
                                 <div className="col-md-6 form-group">
                                     <input type="text" name="name" className="form-control" id="name" placeholder="Your Name"

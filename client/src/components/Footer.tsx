@@ -39,7 +39,7 @@ const Footer: FC = () => {
                             <input type="hidden" name="subject" value="New Contractor Contact" />
                             <input type="hidden" name="from_name" value="Leads" />
                             <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
-                            <input type="hidden" name="redirect" value="https://josh-hensley.github.io/stage-corps/thank-you.html" />
+                            <input type="hidden" name="redirect" value="http://localhost:3000/thank-you" />
                             <div className="input-group">
                                 <input className="form-control mb-1" type="text" name="name" placeholder="Your Name" required />
                             </div>

@@ -24,7 +24,7 @@ app.get('/ezrentout/assets', async (req: Request, res: Response) => {
 })
 
 app.get(/(.*)/, (_req: Request, res: Response) => {
-  res.sendFile('index.html');
+  res.sendFile(path.join(__dirname, 'client/dist', 'index.html'));
 });
 
 app.listen(PORT, () => {

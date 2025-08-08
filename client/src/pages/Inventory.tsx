@@ -20,13 +20,13 @@ const Inventory: FC = () => {
                     const { name, display_image } = item;
                     return { name, display_image }
                 });
-                const filteredAssets = simplifiedAssets.filter((item: IRentalItem, index: number, self: IRentalItem[]) => {
-                    return index === self.findIndex(it => it.name === item.name)
-                })
-                items = [...items, ...filteredAssets]
+                items = [...items, ...simplifiedAssets]
             };
-            console.log(items);
-            setRentalItems(items);
+            const filteredAssets = items.filter((item: IRentalItem, index: number, self: IRentalItem[]) => {
+                return index === self.findIndex(it => it.name === item.name)
+            })
+            console.log(filteredAssets);
+            setRentalItems(filteredAssets);
         };
         if (!initialized.current) {
             fetchData();

@@ -1,13 +1,10 @@
-import { FC, useRef, useState } from "react";
+import { FC, useRef, useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
-// import rentalItems from '../../../db/equipment.json'
 
 interface IRentalItem {
     name: string;
     display_image: string;
 }
-
-import { useEffect } from "react";
 
 const Inventory: FC = () => {
     const [rentalItems, setRentalItems] = useState<IRentalItem[]>([]);

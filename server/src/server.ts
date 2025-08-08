@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'client/dist')));
+app.use(express.static(path.join(__dirname, '../../client/dist')));
 
 app.get('/ezrentout/assets', async (req: Request, res: Response) => {
   const { page } = req.query || '1';
@@ -24,7 +24,7 @@ app.get('/ezrentout/assets', async (req: Request, res: Response) => {
 })
 
 app.get(/(.*)/, (_req: Request, res: Response) => {
-  res.sendFile(path.join(__dirname, 'client/dist', 'index.html'));
+  res.sendFile(path.join(__dirname, '../../client/dist', 'index.html'));
 });
 
 app.listen(PORT, () => {

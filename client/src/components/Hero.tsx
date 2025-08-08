@@ -1,4 +1,4 @@
-import { Carousel, Container, Image } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import { FC, useState } from "react";
 
 const Hero: FC = () => {
@@ -23,7 +23,9 @@ const Hero: FC = () => {
 
 
     return (
+        <section id="hero" className="hero section">
             <Carousel
+                fade
                 slide
                 indicators
                 interval={5000}
@@ -32,18 +34,18 @@ const Hero: FC = () => {
                 onSelect={(selectedIndex) => setActiveIndex(selectedIndex)}>
                 {carouselItems.map((item, index) => {
                     return (
-                        <Carousel.Item style={{height: '90vh'}} key={index}>
-                            <Image src={item.image} fluid />
-                            <Carousel.Caption>
-                                <Container className="bg-dark bg-opacity-50 p-4 rounded w-50">
-                                    <h1>{item.title}</h1>
-                                    <p>{item.description}</p>
-                                </Container>
+                        <Carousel.Item style={{ height: '90vh' }} key={index}>
+                            <img className="img-fluid" src={item.image} />
+                            <Carousel.Caption className="p-4 bg-dark bg-opacity-50">
+                                <h1>{item.title}</h1>
+                                <p>{item.description}</p>
+                                <a href="#about" className="btn-get-started">Read More</a>
                             </Carousel.Caption>
                         </Carousel.Item>
                     );
                 })}
             </Carousel>
+        </section>
     );
 }
 export default Hero;

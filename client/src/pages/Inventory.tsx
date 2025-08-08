@@ -16,7 +16,7 @@ const Inventory: FC = () => {
             for (let i = 1; i <= 20; i++) {
                 const response = await fetch(`/ezrentout/assets?page=${i}`);
                 const { assets } = await response.json();
-                const simplifiedAssets = assets.map((item: IRentalItem) => {
+                const simplifiedAssets = [...assets].map((item: IRentalItem) => {
                     const { name, display_image } = item;
                     return { name, display_image }
                 });

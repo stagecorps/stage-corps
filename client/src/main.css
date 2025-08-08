@@ -2410,3 +2410,37 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+.carousel {
+  height: 60vh;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 150px;
+  height: 300px;
+}
+
+.carousel-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 640px) {
+  .carousel {
+    height: 80vh;
+  }
+
+  .carousel-caption {
+    top: 60%;
+    margin: 0 auto;
+    height: 230px;
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .carousel-img {
+    height: auto;
+  }
+}

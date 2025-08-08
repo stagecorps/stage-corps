@@ -25,6 +25,7 @@ const Hero: FC = () => {
     return (
         <section id="hero" className="hero section">
             <Carousel
+                className="carousel"
                 fade
                 slide
                 indicators
@@ -35,8 +36,8 @@ const Hero: FC = () => {
                 {carouselItems.map((item, index) => {
                     return (
                         <Carousel.Item style={{ height: '90vh' }} key={index}>
-                            <img className="img-fluid" src={item.image} />
-                            <Carousel.Caption className="p-4 bg-dark bg-opacity-50">
+                            <img className="img-fluid carousel-img" src={item.image} />
+                            <Carousel.Caption className="p-4 bg-dark bg-opacity-50 carousel-caption">
                                 <h1>{item.title}</h1>
                                 <p>{item.description}</p>
                                 <a href="#about" className="btn-get-started">Read More</a>

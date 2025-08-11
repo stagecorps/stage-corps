@@ -9,6 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use('/static', express.static(path.join(__dirname, '../../client/dist')))
+app.use(express.urlencoded({ extended: true }))
 app.use('/api', apiRoutes)
 app.get(/(.*)/, (_req: Request, res: Response)=>{
   res.sendFile(path.join(__dirname, '../../client/dist', 'index.html'));

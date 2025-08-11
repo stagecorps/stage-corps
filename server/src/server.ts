@@ -9,6 +9,9 @@ const PORT = process.env.PORT || 3000;
 
 app.use('/static', express.static('../../client/dist'))
 app.use('/api', apiRoutes)
+app.use((_req: Request, res: Response)=>{
+  res.sendFile('../../client/dist/index.html')
+})
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

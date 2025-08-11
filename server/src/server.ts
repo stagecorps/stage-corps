@@ -1,7 +1,6 @@
 import express, { Request, Response } from 'express';
 import dotenv from 'dotenv';
-import path from 'node:path';
-import apiRoutes from './routes/api'
+import apiRoutes from './routes/api.js'
 
 dotenv.config()
 

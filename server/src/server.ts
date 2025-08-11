@@ -1,6 +1,7 @@
 import express, { Request, Response } from 'express';
 import dotenv from 'dotenv';
-import apiRoutes from './routes/api.js'
+import path from 'path';
+import apiRoutes from './routes/api.js';
 
 dotenv.config()
 
@@ -10,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 app.use('/static', express.static('../../client/dist'))
 app.use('/api', apiRoutes)
 app.use((_req: Request, res: Response)=>{
-  res.sendFile('../../client/dist/index.html')
+  res.sendFile(path.join(__dirname, '../../client/dist', 'index.html'));
 })
 
 app.listen(PORT, () => {

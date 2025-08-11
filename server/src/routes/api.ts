@@ -5,7 +5,6 @@ const router = Router();
 
 router.get('/assets', (req: Request, res: Response) => {
     try {
-        console.log('router working as expected')
         res.json(assets)
     } catch (error: any) {
         res.status(500).send({ message: error?.message })

@@ -1,174 +1,174 @@
 [
     {
         "name": "100' DMX 5pin",
-        "display_image": ""
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "2P&G(M) to Edison(F)",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/916254/original/Converter1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203112Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=2e4c091e45ef2dd3fb3f146c515b19bbbd55dfcc834ae69951a03c27a8b9275a"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "AC Extension up to 25'",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/916249/original/Eddison.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203113Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=2565c512987ca4c8b740468abc8c99a9bb7c133aa31904bfc1c25c92c425db8f"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Aquamax Hazer",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/908518/original/shopping_%281%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203113Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=5c173718352f98a680e58b26d989d11a8cdca547d19d8886e6a846a697661cf0"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Aquamax Hazer MP Dream Team",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/908518/original/shopping_%281%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203113Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=5c173718352f98a680e58b26d989d11a8cdca547d19d8886e6a846a697661cf0"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Boreas Snow Machine",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Cable Pack - AC",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Cable Pack - DMX",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Cognito",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "COMRADE",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/311639/original/IMG_7138.JPG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203113Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=c73561bda5cb74e4eb318bc7bdbc9d8490afd8c2b65f31dc7bb7c238baf7a7fe"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Console Monitor",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1360565/original/Monitors_images.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203113Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=361e5488d6ab2222027465c0743bd8e75d86ddbf39cf54e155a55dccacf0328a"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Cube-X7",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/311364/original/cube.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203113Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=0476124ed1100d9e1991eefacfd648e61db4547fa03a2912426a9064a99e4045"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "DMX 10",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/916262/original/DMXCable.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203114Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=eab2d3a0355ac53275e3dd09b0e28bcb4b51af85609bf8a02dab2af411ea64c0"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "DMX 25'",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/916262/original/DMXCable.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203115Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=de72b18b56b9c65ddb70c9030133f410c3005b9d52bef2feca35c17d47b100a7"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "DMX 5'",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/916262/original/DMXCable.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203116Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=92a73a474ef3e898a490ef2f3a69f9a82e086b4157ee17c7d4589794f1277551"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "DMX 50'",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/916262/original/DMXCable.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203117Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=998d7978c78d6979f2b88eedf1308e7d474c81703a898ca986c2089819957db3"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "DMX Splitter X 4",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "DMX Transmitter",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "E-String",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1554277/original/IMG-0719.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203118Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=8e908442ed233bfc7e37ef73321a5436fce1c1325d6112d4bd42a5426c2ea0a3"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "ETC ION 2.9 console",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "ETC ION XE 20 Console",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1360564/original/ETC-IONXE20-2K.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203118Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=5d145d467cecbb14b222e6bd0767f70fa7f5ca25d0f4217f55caa317355781fc"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "ETC Source 4XX",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1360562/original/ETC-S436.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203118Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=b07f16683a803ff67d84f84070545923332912403198c3af9bf34a96e6c91778"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "ETCnomad EOS PGW",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1554324/original/IMG-0722.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203118Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=a5fa10e7efa011e0b0911c4ffd33faf4b8d8a6b666849e40ca451b1f393ea267"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "FS 350",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1554308/original/IMG-0721.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203118Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=e4ab8e84ef2a2a904509fcdd34ce5186adda8fa07ac69e4ca184168172afdc1c"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "G-Mix200",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/925441/original/GMix200.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203118Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=91ff458e3f0bff88151ac171a85432837360cccd3746bacdb2fb09dd834156fc"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Ground Row Cyc Lighting",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "GRUNT 240",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "KNACK II",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1677698/original/picture_of_LED_12X40W_ZOOM_WASH%281%29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203118Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=04ac1c72ce484a3e7769d9f55396902a809e16522a6f0b507a30e4a4a6d36dce"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Lightcaster GOATs",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "MAC ALLURE-PROFILE",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1174190/original/MACALLURE.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203119Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=de08e05360158c01f84962c599295fdf5e5d5a5fab38645851e0e42c16e1b179"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "MANIAC II",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/311664/original/maniac-ii.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203120Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=2831d8f3c71858ca05483e1048186f982a1f40288dd55008d7acb6bf8ce0d8a8"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "MARTIN RUSH4 UV PAR R4",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1527979/original/RUSH4UV.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203120Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=54061c47ed9dac702d189e100616b0843434d1a473abf17a584b99fa524f8c11"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Mini Mole Fresnel",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Poseidon Aqua 2 Ultrasonic Ground Fog Generator",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1851318/original/FF.PoseidonAqua2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203120Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=152beb87cfddaa3cee5cbbdcbc456e0dd869832102da6acb05da863573bc2493"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Remedy RGBW",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1992990/original/Logo%28whiteexpanded%29blk.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203120Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=d41dc910287acafd55b39026418957728e179678e2d7eab35a60cdb31800922b"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "SCOUT-25",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/311420/original/Scout.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203120Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=8e666c9095be539e7c4ffb8beee4b3f256f7ea254ee013f5c3b9115d728e3e75"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "SCOUT-45",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/311420/original/Scout.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203121Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=e5963ebcc7ea4997fecba5da347c9a0c0ae85c5b78e38e4dad93571ea8a9d7ce"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "Shitake Ellipashroom",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "SOLA FRAME 2000",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1473654/original/SolaFrame1000.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203121Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=0a2e2ba182260fc8aace4ba79b48dbd3e804d8b13f043ba536a4050353f2ff34"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "SOLA FRAME 750",
-        "display_image": "/images/no-image.jpg"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "TITAN HT6",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1527938/original/fhm-titan-ht6-haze-machine-4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203121Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=54b490d36f500ebc734c9da028855f9c9cc330f80c8cc3b0b6c3b319339dab47"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "ZIBA - ZB20-HXB",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1360566/original/Ziba_rev_web_wh-300x300.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203121Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=9642ebd405ea74edb48d99b83e0198c42e8fd4656f6ce8a66dc7daad6909ddf0"
+        "display_image": "/img/equipment/Estring.jpg"
     },
     {
         "name": "ZIBA-ZB20-M",
-        "display_image": "https://s3.amazonaws.com/docs.ezrentout.com/attachments/documents/1527929/original/luxium-ziba-mini.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVKFZ2DWIL7B6J3WK%2F20250810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250810T203122Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=2d1fbbe6fd381f899895f9ddb7a368fb1448129e726d019098cc6a3083c67d5b"
+        "display_image": "/img/equipment/Estring.jpg"
     }
 ]

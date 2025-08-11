@@ -12,22 +12,19 @@ const Inventory: FC = () => {
 
     useEffect(() => {
         const fetchData = async () => {
-            let items: IRentalItem[] = [];
-            for (let i = 1; i <= 20; i++) {
-                const response = await fetch(`/ezrentout/assets?page=${i}`);
+            try {
+                const response = await fetch('/api/assets');
                 const data = await response.json();
-                const assets: IRentalItem[] = data.assets;
-                const simplifiedAssets = assets.map((item: IRentalItem) => {
-                    const { name, display_image } = item;
-                    return { name, display_image }
-                });
-                items = [...items, ...simplifiedAssets]
-            };
-            const filteredAssets = items.filter((item: IRentalItem, index: number, self: IRentalItem[]) => {
-                return index === self.findIndex(it => it.name === item.name)
-            })
-            console.log(filteredAssets);
-            setRentalItems(filteredAssets);
+                console.log(data)
+                setRentalItems(data)
+            } catch (error) {
+                if (error instanceof Error) {
+                    console.log(error.message);
+                } else {
+                    console.log(error);
+                }
+            }
+
         };
         if (!initialized.current) {
             fetchData();

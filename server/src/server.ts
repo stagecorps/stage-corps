@@ -8,9 +8,9 @@ dotenv.config()
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use('/static', express.static('../../client/dist'))
+app.use('/static', express.static(path.join(__dirname, '../../client/dist')))
 app.use('/api', apiRoutes)
-app.use((_req: Request, res: Response)=>{
+app.get(/(.*)/, (_req: Request, res: Response)=>{
   res.sendFile(path.join(__dirname, '../../client/dist', 'index.html'));
 })
 

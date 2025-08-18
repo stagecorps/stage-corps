@@ -1,7 +1,37 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Footer: FC = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: `I'm interested in working with Stage Corps!`,
+        phone: ''
+    });
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({ ...prev, [name]: value }));
+    };
+
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        try {
+            const response = await fetch('/api/send-message', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ formData })
+            });
+            if (!response.ok) throw new Error('Failed to send message');
+            window.location.href = '/thank-you';
+        } catch (error) {
+            console.error(error);
+            alert('Error sending message');
+        }
+    }
+
     return (
         <footer id="footer" className="footer dark-background">
             <Container className="footer-top">
@@ -34,18 +64,14 @@ const Footer: FC = () => {
                     </Col>
                     <Col lg={4} md={12} className="footer-newsletter">
                         <h4>Work with us!</h4>
-                        <form action="https://api.web3forms.com/submit" method="post">
-                            <input type="hidden" name="access_key" value="4819d7a3-7e54-437b-9f68-63bc87007d67" />
-                            <input type="hidden" name="subject" value="New Contractor Contact" />
-                            <input type="hidden" name="from_name" value="Leads" />
+                        <form onSubmit={handleSubmit}>
                             <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
-                            <input type="hidden" name="redirect" value="https://stagecorps.onrender.com/thank-you" />
                             <div className="input-group">
-                                <input className="form-control mb-1" type="text" name="name" placeholder="Your Name" required />
+                                <input onChange={handleChange} className="form-control mb-1" type="text" name="name" placeholder="Your Name" required />
                             </div>
                             <div className="input-group">
-                                <input className="form-control mb-1" type="email" name="email" placeholder="Email" required />
-                                <input className="form-control mb-1" type="tel" name="phone" placeholder="Phone" required />
+                                <input onChange={handleChange} className="form-control mb-1" type="email" name="email" placeholder="Email" required />
+                                <input onChange={handleChange} className="form-control mb-1" type="tel" name="phone" placeholder="Phone" required />
                             </div>
                             <button className="form-control btn btn-secondary mb-1 " type="submit">Connect</button>
                         </form>

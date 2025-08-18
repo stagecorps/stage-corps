@@ -6,6 +6,8 @@
   "scripts": {
     "start": "cd server && npm start",
     "build": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
+    "server:build": "cd server && npm run build",
+    "client:build": "cd client && npm run build",
     "install": "concurrently \"cd server && npm i\" \"cd client && npm i\"",
     "client:dev": "cd client && npm run dev",
     "server:dev": "cd server && npm run dev",
@@ -13,7 +15,7 @@
   },
   "nodemonConfig":{
     "watch": ["server/src", "client/src"],
-    "ext": "ts, tsx",
+    "ext": "ts, tsx, json",
     "delay": "5000ms",
     "exec": "npm run build && npm start"
   },

@@ -4,28 +4,12 @@
         "display_image": "/img/equipment/DMX5Pin.jpeg"
     },
     {
-        "name": "2P&G(M) to Edison(F)",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "AC Extension up to 25'",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
         "name": "Aquamax Hazer",
-        "display_image": "/img/equipment/aquamax.jpg.jpg"
+        "display_image": "/img/equipment/aquamax.jpg"
     },
     {
         "name": "Little Blizzard Snow Machine",
         "display_image": "/img/equipment/little_blizzard.jpg"
-    },
-    {
-        "name": "Cable Pack - AC",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "Cable Pack - DMX",
-        "display_image": "/img/equipment/DMX5Pin.jpeg"
     },
     {
         "name": "Cognito",
@@ -36,135 +20,87 @@
         "display_image": "/img/equipment/Comrade.png"
     },
     {
-        "name": "Console Monitor",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
         "name": "Cube-X7",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "DMX 10",
-        "display_image": "/img/equipment/DMX5Pin.jpeg"
-    },
-    {
-        "name": "DMX 25'",
-        "display_image": "/img/equipment/DMX5Pin.jpeg"
-    },
-    {
-        "name": "DMX 5'",
-        "display_image": "/img/equipment/DMX5Pin.jpeg"
-    },
-    {
-        "name": "DMX 50'",
-        "display_image": "/img/equipment/DMX5Pin.jpeg"
-    },
-    {
-        "name": "DMX Splitter X 4",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "DMX Transmitter",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "E-String",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/cubex7.png"
     },
     {
         "name": "ETC ION 2.9 console",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "img/equipment/ETCION3000.jpg"
     },
     {
         "name": "ETC ION XE 20 Console",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "img/equipment/ETCIONXE20Console.jpg"
     },
     {
         "name": "ETC Source 4XX",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "img/equipment/ETCSource4.jfif"
     },
     {
         "name": "ETCnomad EOS PGW",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "img/equipment/ETCnomadEOSPGW.jfif"
     },
     {
         "name": "FS 350",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/fs350.jpg"
     },
     {
         "name": "G-Mix200",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/gmix200.png"
     },
     {
         "name": "Ground Row Cyc Lighting",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "img/equipment/ProCyc-Product-Shot.jpg"
     },
     {
         "name": "GRUNT 240",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/Grunt240.jpg"
     },
     {
         "name": "KNACK II",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "Lightcaster GOATs",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/knackII.jpg"
     },
     {
         "name": "MAC ALLURE-PROFILE",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/MAC_Allure_Profile.jpg"
     },
     {
         "name": "MANIAC II",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/maniac-ii.jpg"
     },
     {
         "name": "MARTIN RUSH4 UV PAR R4",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/MartinRush4UVPAR.jpg"
     },
     {
         "name": "Mini Mole Fresnel",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/mini-fresnel.jpg"
     },
     {
         "name": "Poseidon Aqua 2 Ultrasonic Ground Fog Generator",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "Remedy RGBW",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/aqua2.jpg"
     },
     {
         "name": "SCOUT-25",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/Scout.png"
     },
     {
         "name": "SCOUT-45",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "Shitake Ellipashroom",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/Scout.png"
     },
     {
         "name": "SOLA FRAME 2000",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/SolaFrame_2000.jpg"
     },
     {
         "name": "SOLA FRAME 750",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/SolaFrame-750.jpg"
     },
     {
         "name": "TITAN HT6",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/titan.jpg"
     },
     {
         "name": "ZIBA - ZB20-HXB",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "ZIBA-ZB20-M",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/ZibaZB20.jpg"
     }
 ]

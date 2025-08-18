@@ -9,9 +9,9 @@
   },
   "nodemonConfig": {
     "watch": [
-      "src"
+      "src/**/*"
     ],
-    "ext": "ts",
+    "ext": "ts, json",
     "delay": "5000ms",
     "exec": "npm run build && npm start"
   },

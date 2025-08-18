@@ -15,7 +15,6 @@ const Inventory: FC = () => {
             try {
                 const response = await fetch('/api/assets');
                 const data = await response.json();
-                console.log(data)
                 setRentalItems(data)
             } catch (error) {
                 if (error instanceof Error) {

@@ -1,7 +1,7 @@
 [
     {
         "name": "100' DMX 5pin",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/DMX5Pin.jpeg"
     },
     {
         "name": "2P&G(M) to Edison(F)",
@@ -13,15 +13,11 @@
     },
     {
         "name": "Aquamax Hazer",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/aquamax.jpg.jpg"
     },
     {
-        "name": "Aquamax Hazer MP Dream Team",
-        "display_image": "/img/equipment/Estring.jpg"
-    },
-    {
-        "name": "Boreas Snow Machine",
-        "display_image": "/img/equipment/Estring.jpg"
+        "name": "Little Blizzard Snow Machine",
+        "display_image": "/img/equipment/little_blizzard.jpg"
     },
     {
         "name": "Cable Pack - AC",
@@ -29,15 +25,15 @@
     },
     {
         "name": "Cable Pack - DMX",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/DMX5Pin.jpeg"
     },
     {
         "name": "Cognito",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/Cognito2.jpg"
     },
     {
         "name": "COMRADE",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/Comrade.png"
     },
     {
         "name": "Console Monitor",
@@ -49,19 +45,19 @@
     },
     {
         "name": "DMX 10",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/DMX5Pin.jpeg"
     },
     {
         "name": "DMX 25'",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/DMX5Pin.jpeg"
     },
     {
         "name": "DMX 5'",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/DMX5Pin.jpeg"
     },
     {
         "name": "DMX 50'",
-        "display_image": "/img/equipment/Estring.jpg"
+        "display_image": "/img/equipment/DMX5Pin.jpeg"
     },
     {
         "name": "DMX Splitter X 4",

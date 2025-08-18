@@ -7,8 +7,10 @@
     "build": "tsc",
     "dev": "nodemon"
   },
-  "nodemonConfig":{
-    "watch": ["src"],
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
     "ext": "ts",
     "delay": "5000ms",
     "exec": "npm run build && npm start"
@@ -19,11 +21,14 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
+    "googleapis": "^156.0.0",
+    "nodemailer": "^7.0.5",
     "nodemon": "^3.1.10"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
     "@types/node": "^24.1.0",
+    "@types/nodemailer": "^6.4.17",
     "dotenv": "^17.2.1",
     "typescript": "^5.8.3"
   }

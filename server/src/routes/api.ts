@@ -1,9 +1,40 @@
 import { Request, Response, Router } from "express";
 import assets from '../db/assets.json'
+import { createTransport, Transporter, TransportOptions } from 'nodemailer'
+import { google } from "googleapis";
+import dotenv from 'dotenv';
+dotenv.config();
 
 const router = Router();
+const OAuth2 = google.auth.OAuth2;
+const oauth2Client = new OAuth2(
+    process.env.GOOGLE_CLIENT_ID,
+    process.env.GOOGLE_CLIENT_SECRET,
+    "https://developers.google.com/oauthplayground"
+);
 
-router.get('/assets', (req: Request, res: Response) => {
+oauth2Client.setCredentials({
+    refresh_token: process.env.GOOGLE_REFRESH_TOKEN
+})
+
+const accessToken = oauth2Client.getAccessToken()
+
+
+const transporter: Transporter = createTransport({
+    service: 'gmail',
+    tls: {
+        rejectUnauthorized: false},
+    auth: {
+        type: 'OAuth2',
+        user: "me@joshhensley.com",
+        clientId: process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+        refreshToken: process.env.GOOGLE_REFRESH_TOKEN,
+        accessToken: accessToken,
+    }
+} as TransportOptions);
+
+router.get('/assets', (_req: Request, res: Response) => {
     try {
         res.json(assets)
     } catch (error: any) {
@@ -12,11 +43,32 @@ router.get('/assets', (req: Request, res: Response) => {
     
 });
 
-router.get('/test', (req: Request, res: Response)=>{
+router.post('/send-message', (req: Request, res: Response) => {
     try {
-        res.send("This is a test")
+        const { formData } = req.body;
+        const info = transporter.sendMail({
+            from: '"Leads" <me@joshhensley.com>',
+            to: 'me@joshhensley.com',
+            replyTo: formData.email,
+            subject: `Message from ${formData.name}`,
+            html: `
+            <p>Name: ${formData.name}</p>
+            <p>Email: ${formData.email}</p>
+            <p>Phone: ${formData.phone}</p>
+            <p>Message: ${formData.message}</p>`
+        }, (err, info)=>{
+            if (err) {
+                console.log(err)
+            } else {
+                console.log(`Message Sent!, ${info.messageId}`)
+            }
+        })
+
+        res.send('Email sent!')
+
     } catch (error: any) {
-        res.status(500).send({ message: error.message })
+        res.status(500).send({ message: error?.message })
+        
     }
 })
 

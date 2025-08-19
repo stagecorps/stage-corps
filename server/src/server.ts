@@ -1,4 +1,5 @@
 import express, { Request, Response } from 'express';
+// import { Sequelize } from 'sequelize';
 import dotenv from 'dotenv';
 import path from 'path';
 import apiRoutes from './routes/api.js';
@@ -7,6 +8,18 @@ dotenv.config()
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// const sequelize = new Sequelize(process.env.DB as string)
+
+// const testConnection = async () => {
+//   try {
+//     await sequelize.authenticate();
+//     console.log('Database connection has been established successfully.');
+//   } catch (error) {
+//     console.error('Unable to connect to the database:', error);
+//   }
+// }
+// testConnection();
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))

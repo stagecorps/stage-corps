@@ -36,7 +36,15 @@ const portfolioItems = [
     {
         image: "img/portfolio/RNJ.jpg",
         title: "Show Title Here"
-    }
+    },
+    {
+        image: "img/portfolio/2159.PNG",
+        title: "Show Title Here"
+    },
+    {
+        image: "img/portfolio/2160.PNG",
+        title: "Show Title Here"
+    },
 
 ];
 

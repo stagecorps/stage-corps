@@ -48,8 +48,7 @@ const Inventory: FC = () => {
                                         <div className="portfolio-info">
                                             <h4>{item.name}</h4>
                                             <a href={item.display_image} data-gallery="portfolio-gallery-app" className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                                            {/* <a href={item.name} title="More Details" className="details-link"><i className="bi bi-link-45deg"></i></a> */}
-                                        </div>
+                                         </div>
                                     </div>)
                             })}
                         </div>

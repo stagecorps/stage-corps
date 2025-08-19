@@ -23,7 +23,8 @@ const accessToken = oauth2Client.getAccessToken()
 const transporter: Transporter = createTransport({
     service: 'gmail',
     tls: {
-        rejectUnauthorized: false},
+        rejectUnauthorized: false
+    },
     auth: {
         type: 'OAuth2',
         user: "me@joshhensley.com",
@@ -46,7 +47,7 @@ router.get('/assets', (_req: Request, res: Response) => {
 router.post('/send-message', (req: Request, res: Response) => {
     try {
         const { formData } = req.body;
-        const info = transporter.sendMail({
+        transporter.sendMail({
             from: '"Leads" <me@joshhensley.com>',
             to: 'me@joshhensley.com',
             replyTo: formData.email,
@@ -64,7 +65,7 @@ router.post('/send-message', (req: Request, res: Response) => {
             }
         })
 
-        res.send('Email sent!')
+        res.send(`Message sent!`)
 
     } catch (error: any) {
         res.status(500).send({ message: error?.message })

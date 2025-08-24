@@ -39,7 +39,7 @@ const Contact: FC = () => {
             <div className="container" data-aos="fade">
                 <div className="row gy-5 gx-lg-5">
                     <div className="col-lg-4">
-                        <div className="info">
+                        <div className="info" id='get-in-touch'>
                             <h3>Get in touch</h3>
                             <div className="info-item d-flex">
                                 <i className="bi bi-geo-alt flex-shrink-0"></i>

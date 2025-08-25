@@ -32,7 +32,7 @@ const Contact: FC = () => {
     };
 
     return (
-        <section id="contact" className="section contact">
+        <section id="contact" className="section contact pt-3">
             <div className="container section-title" data-aos="fade-up">
                 <h2>Contact</h2>
             </div>

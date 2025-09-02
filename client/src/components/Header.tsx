@@ -36,7 +36,7 @@ const Header: FC = () => {
                             </a>
                             <ul>
                                 <li><a href="/team">Team</a></li>
-                                <li><a href="/testimonials">Testimonials</a></li>
+                                {/* <li><a href="/testimonials">Testimonials</a></li> */}
                             </ul>
                         </li>
                         <li className="dropdown">

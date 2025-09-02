@@ -53,10 +53,18 @@ router.post('/send-message', (req: Request, res: Response) => {
             replyTo: formData.email,
             subject: `Message from ${formData.name}`,
             html: `
-            <p>Name: ${formData.name}</p>
-            <p>Email: ${formData.email}</p>
-            <p>Phone: ${formData.phone}</p>
-            <p>Message: ${formData.message}</p>`
+            <body>
+                <div style="background:black; color: white; padding: 1rem;">
+                    <h2 style="width: 80%; margin: 0 auto;">Stage Corps</h2>
+                </div>
+                <div style="background: #6d6d6d57; width: 80%; padding: 1rem; margin: 0 auto;">
+                    <p>Name: ${formData.name}</p>
+                    <p>Email: ${formData.email}</p>
+                    <p>Phone: ${formData.phone}</p>
+                    <p>Message: ${formData.message}</p>
+                </div>
+            </body>
+            `
         }, (err, info)=>{
             if (err) {
                 console.log(err)

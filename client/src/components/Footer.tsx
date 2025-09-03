@@ -43,8 +43,8 @@ const Footer: FC = () => {
                         <div className="footer-contact pt-3">
                             <p>617 Business Pkwy</p>
                             <p>Richardson, TX 75081</p>
-                            <p className="mt-3"><strong>Phone:</strong> <span>214-575-3750</span></p>
-                            <p><strong>Email:</strong> <span>info@stagecorps.com</span></p>
+                            <p className="mt-3"><strong>Phone:</strong> <a href="tel:12145753750">214-575-3750</a></p>
+                            <p><strong>Email:</strong> <a href="mailto:info@stagecorps.com">info@stagecorps.com</a></p>
                         </div>
                         <div className="social-links d-flex mt-4">
                             <a href="https://www.facebook.com/StageCorps"><i className="bi bi-facebook"></i></a>

@@ -1,5 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { FC, MouseEvent, useState } from "react";
+import Inventory from "../components/Inventory";
 
 type ServiceKey = "Light Design" | "Scenic Design" | "Sound Design" | "Production Support" | "Rentals" | "Sales";
 
@@ -31,7 +32,7 @@ const serviceData = {
     "Rentals": {
         image: "/img/equipment/ETCIONXE20Console.jpg",
         title: "Rentals",
-        description: "Stage Corps has a robust inventory of both cutting edge and dependable lighting and effects equipment for your productions. They are all available to rent on a weekly basis and are first come first serve booking.",
+        description: "Stage Corps has a robust inventory of both cutting edge and dependable lighting and effects equipment for your productions. They are all available to rent on a weekly basis and are first come first serve booking."
     },
     "Sales": {
         image: "/img/portfolio/DSC_0287.JPG",
@@ -46,7 +47,7 @@ const serviceData = {
     "Education": {
         image: "",
         title: "Education",
-        description:"Would you or your students like to brush up on or learn some new skills? We offer opportunities to learn lighting, design, and even how to best utilize the equipment that you currently have. Our workshops are ideal for both teachers and students, ensuring that you will have prepared technicians to handle future productions. Below you will find some complimentary materials for you to use in your curriculum so you can get a better ideal of the quality that we offer our clients"
+        description: "Would you or your students like to brush up on or learn some new skills? We offer opportunities to learn lighting, design, and even how to best utilize the equipment that you currently have. Our workshops are ideal for both teachers and students, ensuring that you will have prepared technicians to handle future productions. Below you will find some complimentary materials for you to use in your curriculum so you can get a better ideal of the quality that we offer our clients"
     }
 };
 
@@ -56,7 +57,7 @@ const Services: FC<ServiceProps> = (props: ServiceProps) => {
 
     const handleClick = (e: MouseEvent<HTMLAnchorElement>) => {
         const target = e.target as HTMLAnchorElement;
-        document.querySelectorAll('a').forEach(link=>link.classList.remove("active"))
+        document.querySelectorAll('a').forEach(link => link.classList.remove("active"))
         target.classList.add("active")
         const textContent: ServiceKey = target.textContent as ServiceKey;
         setServiceDetails(serviceData[textContent])
@@ -83,6 +84,11 @@ const Services: FC<ServiceProps> = (props: ServiceProps) => {
                         <Image fluid src={serviceDetails.image} className="sercvices-img" />
                         <h3>{serviceDetails.title}</h3>
                         <p>{serviceDetails.description}</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        {serviceDetails.title === "Rentals" ? <Inventory /> : ""}
                     </Col>
                 </Row>
             </Container >

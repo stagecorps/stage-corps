@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Home, Team, Testimonials, Services, Inventory, Portfolio, ThankYou } from './pages'
+import { Home, Team, Testimonials, Services, Portfolio, ThankYou } from './pages'
 import Contact from './components/Contact'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -31,7 +31,6 @@ function App() {
         <Route path='/services/production-support' element={<Services serviceKey="Production Support"/>} />
         <Route path='/services/rentals' element={<Services serviceKey="Rentals"/>} />
         <Route path='/services/sales' element={<Services serviceKey="Sales"/>} />
-        <Route path='/inventory' element={<Inventory />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/thank-you' element={<ThankYou />} />

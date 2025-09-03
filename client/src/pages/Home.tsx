@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
-// import Clients from "../components/Client";
+import Clients from "../components/Client";
 import Contact from "../components/Contact";
 import { FC } from "react";
 
@@ -9,7 +9,7 @@ const Home: FC = () => {
         <main className="main">
             <Hero />
             <About />
-            {/* <Clients /> */}
+            <Clients />
             <Contact />
         </main>
     );

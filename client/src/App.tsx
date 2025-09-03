@@ -28,7 +28,7 @@ function App() {
         <Route path='/testimonials' element={<Testimonials />} />
         <Route path='/services/light-design' element={<Services serviceKey="Light Design" />} />
         <Route path='/services/scenic-design' element={<Services serviceKey="Scenic Design" />} />
-        <Route path='/services/labor' element={<Services serviceKey="Labor"/>} />
+        <Route path='/services/production-support' element={<Services serviceKey="Production Support"/>} />
         <Route path='/services/rentals' element={<Services serviceKey="Rentals"/>} />
         <Route path='/services/sales' element={<Services serviceKey="Sales"/>} />
         <Route path='/inventory' element={<Inventory />} />

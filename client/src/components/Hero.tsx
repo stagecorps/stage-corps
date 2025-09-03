@@ -6,18 +6,21 @@ const Hero: FC = () => {
     const carouselItems = [
         {
             image: 'img/hero-carousel/hero-carousel-1.jpg',
-            title: 'We are professional',
-            description: 'Our personnel will take care of all your production and event needs',
+            title: 'Service you can trust',
+            description: 'Our experienced personnel will take care of all your production and event needs',
+            link: '/services/production-support'
         },
         {
             image: 'img/hero-carousel/hero-carousel-2.jpeg',
-            title: 'Find what you need',
-            description: 'We offer a diverse selection of different equipment. From LEDs to fog machines, let us know how we can help you!',
+            title: 'The gear that you need',
+            description: 'We offer a diverse selection of equipment. From LEDs to fog machines, let us know how we can help you!',
+            link: '/services/rentals'
         },
         {
             image: 'img/hero-carousel/hero-carousel-3.jpg',
-            title: 'Experienced designers',
-            description: 'From stage to light designers, we have someone who can help you make your next event the best it can be.',
+            title: 'Qualified and imaginative designers',
+            description: 'Our designers will help bring your ideas to life and make your productions shine!',
+            link: '/services/light-design'
         }
     ];
 
@@ -40,7 +43,7 @@ const Hero: FC = () => {
                             <Carousel.Caption className="p-4 bg-dark bg-opacity-50 carousel-caption">
                                 <h1>{item.title}</h1>
                                 <p>{item.description}</p>
-                                <a href="#about" className="btn-get-started">Read More</a>
+                                <a href={item.link} className="btn-get-started">Read More</a>
                             </Carousel.Caption>
                         </Carousel.Item>
                     );

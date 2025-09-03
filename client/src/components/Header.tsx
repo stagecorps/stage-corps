@@ -22,7 +22,7 @@ const Header: FC = () => {
             <div className="container position-relative d-flex align-items-center">
 
                 <a href="/" className="logo d-flex align-items-center me-auto">
-                    <img src={logoImage} style={{ backgroundColor: "white", borderRadius: "60% 60% 50% 50%"}} alt="" />
+                    <img src={logoImage} style={{ backgroundColor: "white", borderRadius: "60% 60% 50% 50%" }} alt="" />
                     <h1 className="sitename">Stage Corps</h1>
                 </a>
 
@@ -36,7 +36,7 @@ const Header: FC = () => {
                             </a>
                             <ul>
                                 <li><a href="/team">Team</a></li>
-                                {/* <li><a href="/testimonials">Testimonials</a></li> */}
+                                <li><a href="/testimonials">Testimonials</a></li>
                             </ul>
                         </li>
                         <li className="dropdown">
@@ -45,9 +45,20 @@ const Header: FC = () => {
                                 <i className="bi bi-chevron-down toggle-dropdown" onClick={handleDropdownToggle}></i>
                             </a>
                             <ul>
-                                <li><a href="/services/light-design">Light Design</a></li>
-                                <li><a href="/services/scenic-design">Scenic Design</a></li>
-                                <li><a href="/services/labor">Labor</a></li>
+                                <li className="dropdown">
+                                    <a href="/services/light-design">
+                                        <span>Design</span>
+                                        <i className="bi bi-chevron-down toggle-dropdown" onClick={handleDropdownToggle}></i>
+                                    </a>
+                                    <ul>
+                                        <li><a href="/services/light-design">Lighting</a></li>
+                                        <li><a href="/services/scenic-design">Scenic</a></li>
+                                        <li><a href="/services/sound-design">Sound</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/services/production-support">Production Support</a></li>
+                                <li><a href="/services/professional-development">Professional Development</a></li>
+                                <li><a href="/services/consultations">Consultations</a></li>
                                 <li><a href="/services/rentals">Rentals</a></li>
                                 <li><a href="/services/sales">Sales</a></li>
                             </ul>

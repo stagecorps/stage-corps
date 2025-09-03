@@ -57,7 +57,7 @@ const Footer: FC = () => {
                         <ul>
                             <li><a href="/services/light-design">Lighting Design</a></li>
                             <li><a href="/services/scenic-design">Scenic Design</a></li>
-                            <li><a href="/services/labor">Labor</a></li>
+                            <li><a href="/services/production-support">Production Support</a></li>
                             <li><a href="/services/rentals">Rentals</a></li>
                             <li><a href="/services/sales">Sales</a></li>
                         </ul>

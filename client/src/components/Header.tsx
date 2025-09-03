@@ -60,9 +60,9 @@ const Header: FC = () => {
                 </nav>
 
                 <div className="header-social-links">
-                    <a href="https://www.facebook.com/StageCorps" className="facebook"><i className="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/stagecorps/" className="instagram"><i className="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/stage-corps-llc/" className="linkedin"><i className="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/StageCorps" className="facebook" target="_blank"><i className="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/stagecorps/" className="instagram" target="_blank"><i className="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/stage-corps-llc/" className="linkedin" target="_blank"><i className="bi bi-linkedin"></i></a>
                     <a href="tel:2145753750" className="phone"><i className="bi bi-telephone"></i></a>
                 </div>
 

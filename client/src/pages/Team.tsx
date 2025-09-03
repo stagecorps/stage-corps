@@ -6,37 +6,25 @@ const teamMembers = [
         name: 'Pavel Perebillo',
         positions: ['CEO', 'Co-Founder', 'Light Designer'],
         image: 'img/team/pavel.png',
-        x: '',
-        facebook: '',
-        instagram: '',
-        linkedin: ''
+        email: 'pavel@stagecorps.com'
     },
     {
         name: 'Eric Gray',
         positions: ['CFO', 'Co-Founder', 'Light Designer'],
         image: 'img/team/eric.png',
-        x: '',
-        facebook: '',
-        instagram: '',
-        linkedin: ''
+        email: 'eric@stagecorps.com'
     },
     {
         name: 'Sallie Apple',
         positions: ['Operations Manager'],
         image: 'img/team/sallie.png',
-        x: '',
-        facebook: '',
-        instagram: '',
-        linkedin: ''
+        email: 'info@stagecorps.com'
     },
     {
         name: 'John Charron',
         positions: ['Sales Manager', 'Scenic Designer', 'Light Designer'],
         image: 'img/team/john.png',
-        x: '',
-        facebook: '',
-        instagram: '',
-        linkedin: ''
+        email: 'john@stagecorps.com'
     }
 ];
 
@@ -55,10 +43,7 @@ const Team: FC = () => {
                                     <div className="member-img">
                                         <Image src={member.image} fluid />
                                         <div className="social">
-                                            <a href={member.x}><i className="bi bi-twitter-x"></i></a>
-                                            <a href={member.facebook}><i className="bi bi-facebook"></i></a>
-                                            <a href={member.instagram}><i className="bi bi-instagram"></i></a>
-                                            <a href={member.linkedin}><i className="bi bi-linkedin"></i></a>
+                                            <a href={member.email}><i className="bi bi-envelope"></i></a>
                                         </div>
                                     </div>
                                     <div className="member-info">

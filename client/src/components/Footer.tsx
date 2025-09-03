@@ -47,9 +47,9 @@ const Footer: FC = () => {
                             <p><strong>Email:</strong> <a href="mailto:info@stagecorps.com">info@stagecorps.com</a></p>
                         </div>
                         <div className="social-links d-flex mt-4">
-                            <a href="https://www.facebook.com/StageCorps"><i className="bi bi-facebook"></i></a>
-                            <a href="https://www.instagram.com/stagecorps/"><i className="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/company/stage-corps-llc/"><i className="bi bi-linkedin"></i></a>
+                            <a href="https://www.facebook.com/StageCorps" target="_blank"><i className="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/stagecorps/" target="_blank"><i className="bi bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/stage-corps-llc/" target="_blank"><i className="bi bi-linkedin"></i></a>
                         </div>
                     </Col>
                     <Col lg={4} md={6} className="footer-links">

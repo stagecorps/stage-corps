@@ -22,7 +22,7 @@ const Header: FC = () => {
             <div className="container position-relative d-flex align-items-center">
 
                 <a href="/" className="logo d-flex align-items-center me-auto">
-                    <img src={logoImage} style={{ backgroundColor: "white", borderRadius: "50%" }} alt="" />
+                    <img src={logoImage} style={{ backgroundColor: "white", borderRadius: "60% 60% 50% 50%"}} alt="" />
                     <h1 className="sitename">Stage Corps</h1>
                 </a>
 

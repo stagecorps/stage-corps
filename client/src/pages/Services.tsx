@@ -2,7 +2,16 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { FC, MouseEvent, useState } from "react";
 import Inventory from "../components/Inventory";
 
-type ServiceKey = "Light Design" | "Scenic Design" | "Sound Design" | "Production Support" | "Rentals" | "Sales";
+type ServiceKey = "Light Design" |
+    "Scenic Design" |
+    "Sound Design" |
+    "Production Support" |
+    "Professional Development" |
+    "Consultations" |
+    "Rentals" |
+    "Sales" |
+    "Set Pieces" |
+    "Education";
 
 interface ServiceProps {
     serviceKey: ServiceKey;
@@ -29,6 +38,16 @@ const serviceData = {
         title: "Production Support",
         description: "Need a hand? We have many skilled support staff with years of experience who can come and help you with your next event from set up to tear down and everything in between. We are ready to help!"
     },
+    "Professional Development": {
+        image: "/img/hero-carousel/hero-carousel-2.jpeg",
+        title: "Professional Developement",
+        description: "Professional Developement description"
+    },
+    "Consultations": {
+        image: "/img/portfolio/IMG_6482.JPG",
+        title: "Consultations",
+        description: "Consultations description"
+    },
     "Rentals": {
         image: "/img/equipment/ETCIONXE20Console.jpg",
         title: "Rentals",
@@ -40,12 +59,12 @@ const serviceData = {
         description: "Do you want equipment for the long-term? We are an official dealer for numerous companies including VariLite, Blizzard, Froggy’s Fog, and more. If you are in need of supplies for the beginning of the year, we also have various lamps for conventional instruments and types of theatrical tape."
     },
     "Set Pieces": {
-        image: "",
+        image: "/img/hero-carousel/hero-carousel-3.jpg",
         title: "Set Pieces",
         description: "This year, we are beginning a new partnership with Stagecraft Professional Set Solutions to help make preparations for your productions even easier. Founded by Master Carpenter Mike Carter, Stagecraft rents and sells everything from basic set pieces such as flats, platforms, cubes, and stairs to furniture and even custom pieces based on your own specifications."
     },
     "Education": {
-        image: "",
+        image: "/img/hero-carousel/hero-carousel-1.jpg",
         title: "Education",
         description: "Would you or your students like to brush up on or learn some new skills? We offer opportunities to learn lighting, design, and even how to best utilize the equipment that you currently have. Our workshops are ideal for both teachers and students, ensuring that you will have prepared technicians to handle future productions. Below you will find some complimentary materials for you to use in your curriculum so you can get a better ideal of the quality that we offer our clients"
     }
@@ -73,8 +92,13 @@ const Services: FC<ServiceProps> = (props: ServiceProps) => {
                             <a onClick={handleClick}>Scenic Design</a>
                             <a onClick={handleClick}>Sound Design</a>
                             <a onClick={handleClick}>Production Support</a>
+                            <a onClick={handleClick}>Professional Development</a>
+                            <a onClick={handleClick}>Consultations</a>
                             <a onClick={handleClick}>Rentals</a>
                             <a onClick={handleClick}>Sales</a>
+                            <a onClick={handleClick}>Set Pieces</a>
+                            <a onClick={handleClick}>Education</a>
+
                         </div>
 
                         <h4>We offer a wide variety of services.</h4>

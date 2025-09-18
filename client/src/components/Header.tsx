@@ -1,5 +1,5 @@
 import { FC, MouseEvent } from "react";
-import logoImage from "../assets/logo.png";
+import logoImage from "/img/logo.png";
 
 const Header: FC = () => {
     const handleMobileNavToggle = (e: MouseEvent) => {
@@ -61,6 +61,8 @@ const Header: FC = () => {
                                 <li><a href="/services/consultations">Consultations</a></li>
                                 <li><a href="/services/rentals">Rentals</a></li>
                                 <li><a href="/services/sales">Sales</a></li>
+                                <li><a href="/services/set-pieces">Set Pieces</a></li>
+                                <li><a href="/services/education">Education</a></li>
                             </ul>
                         </li>
                         {/* <li><a href="/inventory">Inventory</a></li> */}

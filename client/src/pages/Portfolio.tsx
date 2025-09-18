@@ -22,11 +22,7 @@ const portfolioItems = [
         title: "Show Title Here"
     },
     {
-        image: "img/portfolio/IMG_6495.JPG",
-        title: "Show Title Here"
-    },
-    {
-        image: "img/portfolio/IntotheWoods2.jpg",
+        image: "img/portfolio/RNJ.jpg",
         title: "Into the Woods"
     },
     {

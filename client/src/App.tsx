@@ -29,8 +29,12 @@ function App() {
         <Route path='/services/light-design' element={<Services serviceKey="Light Design" />} />
         <Route path='/services/scenic-design' element={<Services serviceKey="Scenic Design" />} />
         <Route path='/services/production-support' element={<Services serviceKey="Production Support"/>} />
+        <Route path='/services/professional-development' element={<Services serviceKey="Professional Development"/>} />
+        <Route path='/services/consultations' element={<Services serviceKey="Consultations"/>} />
         <Route path='/services/rentals' element={<Services serviceKey="Rentals"/>} />
         <Route path='/services/sales' element={<Services serviceKey="Sales"/>} />
+        <Route path='/services/set-pieces' element={<Services serviceKey="Set Pieces"/>} />
+        <Route path='/services/education' element={<Services serviceKey="Education"/>} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/thank-you' element={<ThankYou />} />

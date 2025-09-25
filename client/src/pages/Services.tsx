@@ -31,7 +31,7 @@ const serviceData = {
     "Sound Design": {
         image: "/img/portfolio/ChamberlainNutcrackerSnow.jpg",
         title: "Sound Design",
-        description: "Sound design description"
+        description: "Be it sound effects, soundscapes, or music, our designers can help you set the appropriate mood for your audience. We take steps to bring you crystal clear sound that will delight the senses."
     },
     "Production Support": {
         image: "/img/portfolio/RNJ.jpg",
@@ -41,12 +41,12 @@ const serviceData = {
     "Professional Development": {
         image: "/img/hero-carousel/hero-carousel-2.jpeg",
         title: "Professional Developement",
-        description: "Professional Developement description"
+        description: "If you are looking to engage your staff and expand their skillsets at your next PD session, we have you covered. From lesson planning to equipment usage, we cut the fluff and give teachers and technicians real, useful tools that they can immediately put to use."
     },
     "Consultations": {
         image: "/img/portfolio/IMG_6482.JPG",
         title: "Consultations",
-        description: "Consultations description"
+        description: "If you are unsure of the status of your performance space, we can help. Our friendly and experienced staff can look at your equipment to help you diagnose current or potential issues and give you a guide on how to correct them."
     },
     "Rentals": {
         image: "/img/equipment/ETCIONXE20Console.jpg",

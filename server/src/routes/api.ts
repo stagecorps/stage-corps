@@ -48,8 +48,8 @@ router.post('/send-message', (req: Request, res: Response) => {
     try {
         const { formData } = req.body;
         transporter.sendMail({
-            from: '"Leads" <me@joshhensley.com>',
-            to: 'me@joshhensley.com',
+            from: '"Leads" <info@stagecorps.com>',
+            to: 'info@stagecorps.com',
             replyTo: formData.email,
             subject: `Message from ${formData.name}`,
             html: `

@@ -27,7 +27,7 @@ const transporter: Transporter = createTransport({
     },
     auth: {
         type: 'OAuth2',
-        user: "me@joshhensley.com",
+        user: "info@stagecorps.com",
         clientId: process.env.GOOGLE_CLIENT_ID,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET,
         refreshToken: process.env.GOOGLE_REFRESH_TOKEN,

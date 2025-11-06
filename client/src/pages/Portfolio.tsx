@@ -7,19 +7,19 @@ const portfolioItems = [
     },
     {
         image: "img/portfolio/DSC_0287.JPG",
-        title: "Show Title Here"
+        title: ""
     },
     {
         image: "img/portfolio/DSC_0288.JPG",
-        title: "Show Title Here"
+        title: ""
     },
     {
         image: "img/portfolio/IMG_0941.JPG",
-        title: "Show Title Here"
+        title: ""
     },
     {
         image: "img/portfolio/IMG_6482.JPG",
-        title: "Show Title Here"
+        title: ""
     },
     {
         image: "img/portfolio/RNJ.jpg",
@@ -31,15 +31,15 @@ const portfolioItems = [
     },
     {
         image: "img/portfolio/RNJ.jpg",
-        title: "Show Title Here"
+        title: ""
     },
     {
         image: "img/portfolio/2159.PNG",
-        title: "Show Title Here"
+        title: ""
     },
     {
         image: "img/portfolio/2160.PNG",
-        title: "Show Title Here"
+        title: ""
     },
 
 ];
@@ -60,7 +60,7 @@ const Portfolio: FC = () => {
                             <div key={item.title} className="col-lg-4 col-md-6 portfolio-item isotope-item">
                                 <img src={item.image} className="img-fluid" alt="" />
                                 <div className="portfolio-info">
-                                    <h4>{item.title}</h4>
+                                    <h4>{item.title ? item.title : ''}</h4>
                                     <a href={item.image} data-gallery="portfolio-gallery-app"
                                         className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
                                 </div>
